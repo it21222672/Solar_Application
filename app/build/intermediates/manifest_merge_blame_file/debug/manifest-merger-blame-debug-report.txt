@@ -1,0 +1,469 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.solarapplication"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+11-->C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:5:5-81
+11-->C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:5:22-78
+12    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+12-->C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:6:5-80
+12-->C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:6:22-77
+13    <uses-permission android:name="android.permission.INTERNET" />
+13-->C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:7:5-67
+13-->C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:7:22-64
+14
+15    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+16    <!-- <uses-sdk android:minSdkVersion="14"/> -->
+17    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+17-->[com.google.firebase:firebase-database:20.2.2] C:\Users\Hansani\.gradle\caches\transforms-3\8367178409329933e63c72811a7da648\transformed\firebase-database-20.2.2\AndroidManifest.xml:24:5-79
+17-->[com.google.firebase:firebase-database:20.2.2] C:\Users\Hansani\.gradle\caches\transforms-3\8367178409329933e63c72811a7da648\transformed\firebase-database-20.2.2\AndroidManifest.xml:24:22-76
+18
+19    <permission
+19-->[androidx.core:core:1.9.0] C:\Users\Hansani\.gradle\caches\transforms-3\11b94905b76d54666e9ea7d1bf2b63fd\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+20        android:name="com.example.solarapplication.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+20-->[androidx.core:core:1.9.0] C:\Users\Hansani\.gradle\caches\transforms-3\11b94905b76d54666e9ea7d1bf2b63fd\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+21        android:protectionLevel="signature" />
+21-->[androidx.core:core:1.9.0] C:\Users\Hansani\.gradle\caches\transforms-3\11b94905b76d54666e9ea7d1bf2b63fd\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+22
+23    <uses-permission android:name="com.example.solarapplication.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+23-->[androidx.core:core:1.9.0] C:\Users\Hansani\.gradle\caches\transforms-3\11b94905b76d54666e9ea7d1bf2b63fd\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+23-->[androidx.core:core:1.9.0] C:\Users\Hansani\.gradle\caches\transforms-3\11b94905b76d54666e9ea7d1bf2b63fd\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+24
+25    <application
+25-->C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:9:5-167:19
+26        android:allowBackup="true"
+26-->C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:10:9-35
+27        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+27-->[androidx.core:core:1.9.0] C:\Users\Hansani\.gradle\caches\transforms-3\11b94905b76d54666e9ea7d1bf2b63fd\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+28        android:dataExtractionRules="@xml/data_extraction_rules"
+28-->C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:11:9-65
+29        android:debuggable="true"
+30        android:extractNativeLibs="false"
+31        android:fullBackupContent="@xml/backup_rules"
+31-->C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:12:9-54
+32        android:icon="@mipmap/ic_launcher"
+32-->C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:13:9-43
+33        android:label="@string/app_name"
+33-->C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:14:9-41
+34        android:roundIcon="@mipmap/ic_launcher_round"
+34-->C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:15:9-54
+35        android:supportsRtl="true"
+35-->C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:16:9-35
+36        android:testOnly="true"
+37        android:theme="@style/Theme.SolarApplication" >
+37-->C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:17:9-54
+38        <activity
+38-->C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:19:9-21:40
+39            android:name="com.example.solarapplication.Customer_Search_Articles_Activity"
+39-->C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:20:13-62
+40            android:exported="false" />
+40-->C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:21:13-37
+41        <activity
+41-->C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:22:9-24:40
+42            android:name="com.example.solarapplication.Online_Chat_Bot_Activity"
+42-->C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:23:13-53
+43            android:exported="false" />
+43-->C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:24:13-37
+44        <activity
+44-->C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:25:9-27:40
+45            android:name="com.example.solarapplication.Contact_Page_Activity2"
+45-->C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:26:13-51
+46            android:exported="false" />
+46-->C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:27:13-37
+47        <activity
+47-->C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:28:9-30:40
+48            android:name="com.example.solarapplication.Admin_View_Notification_Activity"
+48-->C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:29:13-61
+49            android:exported="false" />
+49-->C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:30:13-37
+50        <activity
+50-->C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:31:9-33:40
+51            android:name="com.example.solarapplication.Customer_View_Orders_Activity"
+51-->C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:32:13-58
+52            android:exported="false" />
+52-->C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:33:13-37
+53        <activity
+53-->C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:34:9-36:40
+54            android:name="com.example.solarapplication.Supplier_Order_Activity"
+54-->C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:35:13-52
+55            android:exported="false" />
+55-->C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:36:13-37
+56        <activity
+56-->C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:37:9-39:40
+57            android:name="com.example.solarapplication.ChatBot_Activity"
+57-->C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:38:13-45
+58            android:exported="false" />
+58-->C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:39:13-37
+59        <activity
+59-->C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:40:9-42:40
+60            android:name="com.example.solarapplication.Admin_search_Articles_Activity"
+60-->C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:41:13-59
+61            android:exported="false" />
+61-->C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:42:13-37
+62        <activity
+62-->C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:43:9-45:40
+63            android:name="com.example.solarapplication.Admin_Manage_News_Activity"
+63-->C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:44:13-55
+64            android:exported="false" />
+64-->C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:45:13-37
+65        <activity
+65-->C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:46:9-48:40
+66            android:name="com.example.solarapplication.Journalist_Signup_Activity"
+66-->C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:47:13-55
+67            android:exported="false" />
+67-->C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:48:13-37
+68        <activity
+68-->C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:49:9-51:40
+69            android:name="com.example.solarapplication.Journalist_Update_Articles_Activity"
+69-->C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:50:13-64
+70            android:exported="false" />
+70-->C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:51:13-37
+71        <activity
+71-->C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:52:9-54:40
+72            android:name="com.example.solarapplication.Journalist_Profile_Activity"
+72-->C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:53:13-56
+73            android:exported="false" />
+73-->C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:54:13-37
+74        <activity
+74-->C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:55:9-57:40
+75            android:name="com.example.solarapplication.Journalist_Manage_Articles_Activity"
+75-->C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:56:13-64
+76            android:exported="false" />
+76-->C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:57:13-37
+77        <activity
+77-->C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:58:9-60:40
+78            android:name="com.example.solarapplication.Add_Articles_Activity"
+78-->C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:59:13-50
+79            android:exported="false" />
+79-->C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:60:13-37
+80        <activity
+80-->C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:61:9-63:40
+81            android:name="com.example.solarapplication.Journalist_Home_Activity"
+81-->C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:62:13-53
+82            android:exported="false" />
+82-->C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:63:13-37
+83        <activity
+83-->C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:64:9-66:40
+84            android:name="com.example.solarapplication.Customer_View_Articles_Activity"
+84-->C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:65:13-60
+85            android:exported="false" />
+85-->C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:66:13-37
+86        <activity
+86-->C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:67:9-69:40
+87            android:name="com.example.solarapplication.Customer_Display_All_Feedback_Activity"
+87-->C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:68:13-67
+88            android:exported="false" />
+88-->C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:69:13-37
+89        <activity
+89-->C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:70:9-72:40
+90            android:name="com.example.solarapplication.Admin_search_Feedback_Activity"
+90-->C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:71:13-59
+91            android:exported="false" />
+91-->C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:72:13-37
+92        <activity
+92-->C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:73:9-75:40
+93            android:name="com.example.solarapplication.Admin_Feedback_Activity"
+93-->C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:74:13-52
+94            android:exported="false" />
+94-->C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:75:13-37
+95        <activity
+95-->C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:76:9-79:58
+96            android:name="com.example.solarapplication.Customer_Feedback_Activity"
+96-->C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:77:13-55
+97            android:exported="false"
+97-->C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:78:13-37
+98            android:windowSoftInputMode="adjustResize" />
+98-->C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:79:13-55
+99        <activity
+99-->C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:80:9-82:40
+100            android:name="com.example.solarapplication.Solar_News_Activity"
+100-->C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:81:13-48
+101            android:exported="false" />
+101-->C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:82:13-37
+102        <activity
+102-->C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:83:9-85:40
+103            android:name="com.example.solarapplication.Customer_search_Products_Activity"
+103-->C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:84:13-62
+104            android:exported="false" />
+104-->C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:85:13-37
+105        <activity
+105-->C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:86:9-88:40
+106            android:name="com.example.solarapplication.Supplier_Search_Products_Activity"
+106-->C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:87:13-62
+107            android:exported="false" />
+107-->C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:88:13-37
+108        <activity
+108-->C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:89:9-91:40
+109            android:name="com.example.solarapplication.Update_Product_Activity"
+109-->C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:90:13-52
+110            android:exported="false" />
+110-->C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:91:13-37
+111        <activity
+111-->C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:92:9-94:40
+112            android:name="com.example.solarapplication.Admin_search_Supplier_Activity"
+112-->C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:93:13-59
+113            android:exported="false" />
+113-->C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:94:13-37
+114        <activity
+114-->C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:95:9-97:40
+115            android:name="com.example.solarapplication.Admin_View_Supplier_Activity"
+115-->C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:96:13-57
+116            android:exported="false" />
+116-->C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:97:13-37
+117        <activity
+117-->C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:98:9-100:40
+118            android:name="com.example.solarapplication.View_Post_Activity"
+118-->C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:99:13-47
+119            android:exported="false" />
+119-->C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:100:13-37
+120        <activity
+120-->C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:101:9-103:40
+121            android:name="com.example.solarapplication.Admin_search_Products_Activity"
+121-->C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:102:13-59
+122            android:exported="false" />
+122-->C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:103:13-37
+123        <activity
+123-->C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:104:9-106:40
+124            android:name="com.example.solarapplication.Admin_View_Products_Activity"
+124-->C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:105:13-57
+125            android:exported="false" />
+125-->C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:106:13-37
+126        <activity
+126-->C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:107:9-109:40
+127            android:name="com.example.solarapplication.Supplier_Profile_Activity"
+127-->C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:108:13-54
+128            android:exported="false" />
+128-->C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:109:13-37
+129        <activity
+129-->C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:110:9-112:40
+130            android:name="com.example.solarapplication.View_Supplier_Products_Activity"
+130-->C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:111:13-60
+131            android:exported="false" />
+131-->C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:112:13-37
+132        <activity
+132-->C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:113:9-115:40
+133            android:name="com.example.solarapplication.Supplier_Dashbord_Activity"
+133-->C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:114:13-55
+134            android:exported="false" />
+134-->C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:115:13-37
+135        <activity
+135-->C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:116:9-118:40
+136            android:name="com.example.solarapplication.Supplier_Signup_Activity"
+136-->C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:117:13-53
+137            android:exported="false" />
+137-->C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:118:13-37
+138        <activity
+138-->C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:119:9-121:40
+139            android:name="com.example.solarapplication.Suppliers_add_data_Activity"
+139-->C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:120:13-56
+140            android:exported="false" />
+140-->C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:121:13-37
+141        <activity
+141-->C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:122:9-124:40
+142            android:name="com.example.solarapplication.Calculator_Page_Activity"
+142-->C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:123:13-53
+143            android:exported="false" />
+143-->C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:124:13-37
+144        <activity
+144-->C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:125:9-127:40
+145            android:name="com.example.solarapplication.Admin_Home_Activity"
+145-->C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:126:13-48
+146            android:exported="false" />
+146-->C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:127:13-37
+147        <activity
+147-->C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:128:9-130:40
+148            android:name="com.example.solarapplication.Delivery_Service_Activity"
+148-->C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:129:13-54
+149            android:exported="false" />
+149-->C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:130:13-37
+150        <activity
+150-->C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:131:9-133:40
+151            android:name="com.example.solarapplication.Contact_Page_Activity"
+151-->C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:132:13-50
+152            android:exported="false" />
+152-->C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:133:13-37
+153        <activity
+153-->C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:134:9-136:40
+154            android:name="com.example.solarapplication.Our_warranty_Activity"
+154-->C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:135:13-50
+155            android:exported="false" />
+155-->C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:136:13-37
+156        <activity
+156-->C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:137:9-139:40
+157            android:name="com.example.solarapplication.After_Services_Activity"
+157-->C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:138:13-52
+158            android:exported="false" />
+158-->C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:139:13-37
+159        <activity
+159-->C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:140:9-142:40
+160            android:name="com.example.solarapplication.Service_page_Activity"
+160-->C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:141:13-50
+161            android:exported="false" />
+161-->C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:142:13-37
+162        <activity
+162-->C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:143:9-145:40
+163            android:name="com.example.solarapplication.Article_Activity"
+163-->C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:144:13-45
+164            android:exported="false" />
+164-->C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:145:13-37
+165        <activity
+165-->C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:146:9-148:40
+166            android:name="com.example.solarapplication.Customer_Profile_Activity"
+166-->C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:147:13-54
+167            android:exported="false" />
+167-->C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:148:13-37
+168        <activity
+168-->C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:149:9-151:40
+169            android:name="com.example.solarapplication.View_Products_Activity"
+169-->C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:150:13-51
+170            android:exported="false" />
+170-->C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:151:13-37
+171        <activity
+171-->C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:152:9-154:40
+172            android:name="com.example.solarapplication.Signup_Activity"
+172-->C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:153:13-44
+173            android:exported="false" />
+173-->C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:154:13-37
+174        <activity
+174-->C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:155:9-157:40
+175            android:name="com.example.solarapplication.Customer_Home_Activity"
+175-->C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:156:13-51
+176            android:exported="false" />
+176-->C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:157:13-37
+177        <activity
+177-->C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:158:9-166:20
+178            android:name="com.example.solarapplication.Login_Activity"
+178-->C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:159:13-43
+179            android:exported="true" >
+179-->C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:160:13-36
+180            <intent-filter>
+180-->C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:161:13-165:29
+181                <action android:name="android.intent.action.MAIN" />
+181-->C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:162:17-69
+181-->C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:162:25-66
+182
+183                <category android:name="android.intent.category.LAUNCHER" />
+183-->C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:164:17-77
+183-->C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:164:27-74
+184            </intent-filter>
+185        </activity>
+186
+187        <service
+187-->[com.google.firebase:firebase-database:20.2.2] C:\Users\Hansani\.gradle\caches\transforms-3\8367178409329933e63c72811a7da648\transformed\firebase-database-20.2.2\AndroidManifest.xml:28:9-34:19
+188            android:name="com.google.firebase.components.ComponentDiscoveryService"
+188-->[com.google.firebase:firebase-database:20.2.2] C:\Users\Hansani\.gradle\caches\transforms-3\8367178409329933e63c72811a7da648\transformed\firebase-database-20.2.2\AndroidManifest.xml:29:13-84
+189            android:directBootAware="true"
+189-->[com.google.firebase:firebase-common:20.3.2] C:\Users\Hansani\.gradle\caches\transforms-3\9e41af7578926b50f461f879fd7112d4\transformed\firebase-common-20.3.2\AndroidManifest.xml:34:13-43
+190            android:exported="false" >
+190-->[com.google.firebase:firebase-database:20.2.2] C:\Users\Hansani\.gradle\caches\transforms-3\8367178409329933e63c72811a7da648\transformed\firebase-database-20.2.2\AndroidManifest.xml:30:13-37
+191            <meta-data
+191-->[com.google.firebase:firebase-database:20.2.2] C:\Users\Hansani\.gradle\caches\transforms-3\8367178409329933e63c72811a7da648\transformed\firebase-database-20.2.2\AndroidManifest.xml:31:13-33:85
+192                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+192-->[com.google.firebase:firebase-database:20.2.2] C:\Users\Hansani\.gradle\caches\transforms-3\8367178409329933e63c72811a7da648\transformed\firebase-database-20.2.2\AndroidManifest.xml:32:17-109
+193                android:value="com.google.firebase.components.ComponentRegistrar" />
+193-->[com.google.firebase:firebase-database:20.2.2] C:\Users\Hansani\.gradle\caches\transforms-3\8367178409329933e63c72811a7da648\transformed\firebase-database-20.2.2\AndroidManifest.xml:33:17-82
+194        </service>
+195
+196        <activity
+196-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\Hansani\.gradle\caches\transforms-3\3c19fc2bbd87dd62c81ba23c93205df3\transformed\play-services-base-18.1.0\AndroidManifest.xml:20:9-22:45
+197            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+197-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\Hansani\.gradle\caches\transforms-3\3c19fc2bbd87dd62c81ba23c93205df3\transformed\play-services-base-18.1.0\AndroidManifest.xml:20:19-85
+198            android:exported="false"
+198-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\Hansani\.gradle\caches\transforms-3\3c19fc2bbd87dd62c81ba23c93205df3\transformed\play-services-base-18.1.0\AndroidManifest.xml:22:19-43
+199            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+199-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\Hansani\.gradle\caches\transforms-3\3c19fc2bbd87dd62c81ba23c93205df3\transformed\play-services-base-18.1.0\AndroidManifest.xml:21:19-78
+200
+201        <provider
+201-->[com.google.firebase:firebase-common:20.3.2] C:\Users\Hansani\.gradle\caches\transforms-3\9e41af7578926b50f461f879fd7112d4\transformed\firebase-common-20.3.2\AndroidManifest.xml:25:9-30:39
+202            android:name="com.google.firebase.provider.FirebaseInitProvider"
+202-->[com.google.firebase:firebase-common:20.3.2] C:\Users\Hansani\.gradle\caches\transforms-3\9e41af7578926b50f461f879fd7112d4\transformed\firebase-common-20.3.2\AndroidManifest.xml:26:13-77
+203            android:authorities="com.example.solarapplication.firebaseinitprovider"
+203-->[com.google.firebase:firebase-common:20.3.2] C:\Users\Hansani\.gradle\caches\transforms-3\9e41af7578926b50f461f879fd7112d4\transformed\firebase-common-20.3.2\AndroidManifest.xml:27:13-72
+204            android:directBootAware="true"
+204-->[com.google.firebase:firebase-common:20.3.2] C:\Users\Hansani\.gradle\caches\transforms-3\9e41af7578926b50f461f879fd7112d4\transformed\firebase-common-20.3.2\AndroidManifest.xml:28:13-43
+205            android:exported="false"
+205-->[com.google.firebase:firebase-common:20.3.2] C:\Users\Hansani\.gradle\caches\transforms-3\9e41af7578926b50f461f879fd7112d4\transformed\firebase-common-20.3.2\AndroidManifest.xml:29:13-37
+206            android:initOrder="100" />
+206-->[com.google.firebase:firebase-common:20.3.2] C:\Users\Hansani\.gradle\caches\transforms-3\9e41af7578926b50f461f879fd7112d4\transformed\firebase-common-20.3.2\AndroidManifest.xml:30:13-36
+207
+208        <meta-data
+208-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\Hansani\.gradle\caches\transforms-3\9230e3d0e2305662fe4ecfcd5d45f275\transformed\play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+209            android:name="com.google.android.gms.version"
+209-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\Hansani\.gradle\caches\transforms-3\9230e3d0e2305662fe4ecfcd5d45f275\transformed\play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+210            android:value="@integer/google_play_services_version" />
+210-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\Hansani\.gradle\caches\transforms-3\9230e3d0e2305662fe4ecfcd5d45f275\transformed\play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+211
+212        <provider
+212-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Hansani\.gradle\caches\transforms-3\83e68f7926ebe85388f03774da9fa7f5\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+213            android:name="androidx.startup.InitializationProvider"
+213-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Hansani\.gradle\caches\transforms-3\83e68f7926ebe85388f03774da9fa7f5\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+214            android:authorities="com.example.solarapplication.androidx-startup"
+214-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Hansani\.gradle\caches\transforms-3\83e68f7926ebe85388f03774da9fa7f5\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+215            android:exported="false" >
+215-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Hansani\.gradle\caches\transforms-3\83e68f7926ebe85388f03774da9fa7f5\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+216            <meta-data
+216-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Hansani\.gradle\caches\transforms-3\83e68f7926ebe85388f03774da9fa7f5\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+217                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+217-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Hansani\.gradle\caches\transforms-3\83e68f7926ebe85388f03774da9fa7f5\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+218                android:value="androidx.startup" />
+218-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Hansani\.gradle\caches\transforms-3\83e68f7926ebe85388f03774da9fa7f5\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+219            <meta-data
+219-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\Hansani\.gradle\caches\transforms-3\fc8d73e4cd7f070e778cf560fc319da5\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:29:13-31:52
+220                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+220-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\Hansani\.gradle\caches\transforms-3\fc8d73e4cd7f070e778cf560fc319da5\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:30:17-78
+221                android:value="androidx.startup" />
+221-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\Hansani\.gradle\caches\transforms-3\fc8d73e4cd7f070e778cf560fc319da5\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:31:17-49
+222            <meta-data
+222-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Hansani\.gradle\caches\transforms-3\af539d90ce3b76d4b1325308606b0b97\transformed\profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+223                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+223-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Hansani\.gradle\caches\transforms-3\af539d90ce3b76d4b1325308606b0b97\transformed\profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+224                android:value="androidx.startup" />
+224-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Hansani\.gradle\caches\transforms-3\af539d90ce3b76d4b1325308606b0b97\transformed\profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+225        </provider>
+226
+227        <receiver
+227-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Hansani\.gradle\caches\transforms-3\af539d90ce3b76d4b1325308606b0b97\transformed\profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+228            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+228-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Hansani\.gradle\caches\transforms-3\af539d90ce3b76d4b1325308606b0b97\transformed\profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+229            android:directBootAware="false"
+229-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Hansani\.gradle\caches\transforms-3\af539d90ce3b76d4b1325308606b0b97\transformed\profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+230            android:enabled="true"
+230-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Hansani\.gradle\caches\transforms-3\af539d90ce3b76d4b1325308606b0b97\transformed\profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+231            android:exported="true"
+231-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Hansani\.gradle\caches\transforms-3\af539d90ce3b76d4b1325308606b0b97\transformed\profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+232            android:permission="android.permission.DUMP" >
+232-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Hansani\.gradle\caches\transforms-3\af539d90ce3b76d4b1325308606b0b97\transformed\profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+233            <intent-filter>
+233-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Hansani\.gradle\caches\transforms-3\af539d90ce3b76d4b1325308606b0b97\transformed\profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+234                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+234-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Hansani\.gradle\caches\transforms-3\af539d90ce3b76d4b1325308606b0b97\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+234-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Hansani\.gradle\caches\transforms-3\af539d90ce3b76d4b1325308606b0b97\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+235            </intent-filter>
+236            <intent-filter>
+236-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Hansani\.gradle\caches\transforms-3\af539d90ce3b76d4b1325308606b0b97\transformed\profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+237                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+237-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Hansani\.gradle\caches\transforms-3\af539d90ce3b76d4b1325308606b0b97\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+237-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Hansani\.gradle\caches\transforms-3\af539d90ce3b76d4b1325308606b0b97\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+238            </intent-filter>
+239            <intent-filter>
+239-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Hansani\.gradle\caches\transforms-3\af539d90ce3b76d4b1325308606b0b97\transformed\profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+240                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+240-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Hansani\.gradle\caches\transforms-3\af539d90ce3b76d4b1325308606b0b97\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+240-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Hansani\.gradle\caches\transforms-3\af539d90ce3b76d4b1325308606b0b97\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+241            </intent-filter>
+242            <intent-filter>
+242-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Hansani\.gradle\caches\transforms-3\af539d90ce3b76d4b1325308606b0b97\transformed\profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+243                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+243-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Hansani\.gradle\caches\transforms-3\af539d90ce3b76d4b1325308606b0b97\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+243-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Hansani\.gradle\caches\transforms-3\af539d90ce3b76d4b1325308606b0b97\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+244            </intent-filter>
+245        </receiver>
+246    </application>
+247
+248</manifest>

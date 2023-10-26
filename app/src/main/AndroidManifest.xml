@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SolarApplication"
+        tools:targetApi="31">
+        <activity
+            android:name=".Customer_Search_Articles_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Online_Chat_Bot_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Contact_Page_Activity2"
+            android:exported="false" />
+        <activity
+            android:name=".Admin_View_Notification_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Customer_View_Orders_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Supplier_Order_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".ChatBot_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Admin_search_Articles_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Admin_Manage_News_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Journalist_Signup_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Journalist_Update_Articles_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Journalist_Profile_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Journalist_Manage_Articles_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Add_Articles_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Journalist_Home_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Customer_View_Articles_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Customer_Display_All_Feedback_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Admin_search_Feedback_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Admin_Feedback_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Customer_Feedback_Activity"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".Solar_News_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Customer_search_Products_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Supplier_Search_Products_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Update_Product_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Admin_search_Supplier_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Admin_View_Supplier_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".View_Post_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Admin_search_Products_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Admin_View_Products_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Supplier_Profile_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".View_Supplier_Products_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Supplier_Dashbord_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Supplier_Signup_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Suppliers_add_data_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Calculator_Page_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Admin_Home_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Delivery_Service_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Contact_Page_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Our_warranty_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".After_Services_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Service_page_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Article_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Customer_Profile_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".View_Products_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Signup_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Customer_Home_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Login_Activity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

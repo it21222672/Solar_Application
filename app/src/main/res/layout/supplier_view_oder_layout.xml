@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+    android:background="@drawable/circle_background"
+android:orientation="vertical"
+android:padding="16dp">
+
+<!-- Product Image -->
+<ImageView
+    android:id="@+id/productImage"
+    android:layout_width="100dp"
+    android:layout_height="100dp"
+    android:scaleType="centerCrop"
+    android:src="@drawable/ic_image_search" />
+
+<!-- Product Name -->
+<TextView
+    android:id="@+id/productName"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Product Name"
+    android:textColor="@color/black"
+    android:textSize="18sp"
+    android:textStyle="bold"
+    android:layout_marginTop="8dp" />
+
+<!-- Quantity -->
+<TextView
+    android:id="@+id/quantity"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Quantity: 1"
+    android:textColor="@color/black"
+    android:textSize="16sp"
+    android:layout_marginTop="4dp" />
+
+    <TextView
+        android:id="@+id/Descriptiontxt"
+        android:layout_width="match_parent"
+        android:layout_height="136dp"
+        android:layout_marginTop="4dp"
+        android:gravity="top"
+        android:hint="Description"
+        android:inputType="textNoSuggestions|textMultiLine"
+        android:minLines="3"
+        android:padding="8dp"
+        android:scrollbars="vertical"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+
+<!-- Customer Name -->
+<TextView
+    android:id="@+id/customerName"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textColor="@color/black"
+    android:text="Customer Name: John Doe"
+    android:textSize="16sp"
+    android:layout_marginTop="8dp" />
+
+<!-- Email -->
+<TextView
+    android:id="@+id/email"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textColor="@color/black"
+    android:text="Email: john.doe@example.com"
+    android:textSize="16sp"
+    android:layout_marginTop="4dp" />
+
+<!-- Contact Number -->
+<TextView
+    android:id="@+id/contactNumber"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textColor="@color/black"
+    android:text="Contact Number: +1 123-456-7890"
+    android:textSize="16sp"
+    android:layout_marginTop="4dp" />
+
+    <TextView
+        android:id="@+id/address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Address"
+        android:textSize="16sp"
+        android:layout_marginTop="4dp"
+        android:textColor="@color/black"
+        android:inputType="textMultiLine"
+        android:minLines="3"
+        android:gravity="top"
+        android:scrollbars="vertical"
+        android:padding="8dp" />
+
+
+
+
+    <!-- Postal Code -->
+<TextView
+    android:id="@+id/postalCode"
+    android:textColor="@color/black"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Postal Code: 12345"
+    android:textSize="16sp"
+    android:layout_marginTop="4dp" />
+
+    <TextView
+        android:id="@+id/status"
+        android:layout_width="379dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="4dp"
+        android:background="@color/black"
+        android:gravity="center"
+        android:text="Status: "
+        android:textColor="@color/white"
+        android:textSize="19sp" />
+</LinearLayout>

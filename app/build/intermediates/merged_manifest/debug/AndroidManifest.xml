@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.solarapplication"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="26"
+        android:targetSdkVersion="34" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+    <!-- <uses-sdk android:minSdkVersion="14"/> -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <permission
+        android:name="com.example.solarapplication.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.example.solarapplication.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+
+    <application
+        android:allowBackup="true"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:debuggable="true"
+        android:extractNativeLibs="false"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:testOnly="true"
+        android:theme="@style/Theme.SolarApplication" >
+        <activity
+            android:name="com.example.solarapplication.Customer_Search_Articles_Activity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.solarapplication.Online_Chat_Bot_Activity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.solarapplication.Contact_Page_Activity2"
+            android:exported="false" />
+        <activity
+            android:name="com.example.solarapplication.Admin_View_Notification_Activity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.solarapplication.Customer_View_Orders_Activity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.solarapplication.Supplier_Order_Activity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.solarapplication.ChatBot_Activity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.solarapplication.Admin_search_Articles_Activity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.solarapplication.Admin_Manage_News_Activity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.solarapplication.Journalist_Signup_Activity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.solarapplication.Journalist_Update_Articles_Activity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.solarapplication.Journalist_Profile_Activity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.solarapplication.Journalist_Manage_Articles_Activity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.solarapplication.Add_Articles_Activity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.solarapplication.Journalist_Home_Activity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.solarapplication.Customer_View_Articles_Activity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.solarapplication.Customer_Display_All_Feedback_Activity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.solarapplication.Admin_search_Feedback_Activity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.solarapplication.Admin_Feedback_Activity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.solarapplication.Customer_Feedback_Activity"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="com.example.solarapplication.Solar_News_Activity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.solarapplication.Customer_search_Products_Activity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.solarapplication.Supplier_Search_Products_Activity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.solarapplication.Update_Product_Activity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.solarapplication.Admin_search_Supplier_Activity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.solarapplication.Admin_View_Supplier_Activity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.solarapplication.View_Post_Activity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.solarapplication.Admin_search_Products_Activity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.solarapplication.Admin_View_Products_Activity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.solarapplication.Supplier_Profile_Activity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.solarapplication.View_Supplier_Products_Activity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.solarapplication.Supplier_Dashbord_Activity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.solarapplication.Supplier_Signup_Activity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.solarapplication.Suppliers_add_data_Activity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.solarapplication.Calculator_Page_Activity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.solarapplication.Admin_Home_Activity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.solarapplication.Delivery_Service_Activity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.solarapplication.Contact_Page_Activity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.solarapplication.Our_warranty_Activity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.solarapplication.After_Services_Activity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.solarapplication.Service_page_Activity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.solarapplication.Article_Activity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.solarapplication.Customer_Profile_Activity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.solarapplication.View_Products_Activity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.solarapplication.Signup_Activity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.solarapplication.Customer_Home_Activity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.solarapplication.Login_Activity"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name="com.google.firebase.components.ComponentDiscoveryService"
+            android:directBootAware="true"
+            android:exported="false" >
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+        </service>
+
+        <activity
+            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <provider
+            android:name="com.google.firebase.provider.FirebaseInitProvider"
+            android:authorities="com.example.solarapplication.firebaseinitprovider"
+            android:directBootAware="true"
+            android:exported="false"
+            android:initOrder="100" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <provider
+            android:name="androidx.startup.InitializationProvider"
+            android:authorities="com.example.solarapplication.androidx-startup"
+            android:exported="false" >
+            <meta-data
+                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+                android:value="androidx.startup" />
+            <meta-data
+                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+                android:value="androidx.startup" />
+            <meta-data
+                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+                android:value="androidx.startup" />
+        </provider>
+
+        <receiver
+            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+            android:directBootAware="false"
+            android:enabled="true"
+            android:exported="true"
+            android:permission="android.permission.DUMP" >
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>

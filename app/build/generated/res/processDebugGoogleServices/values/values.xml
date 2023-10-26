@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="gcm_defaultSenderId" translatable="false">69765343933</string>
+    <string name="google_api_key" translatable="false">AIzaSyBH00yF3XkeqTRajEKKOQQJNSrn3naLszs</string>
+    <string name="google_app_id" translatable="false">1:69765343933:android:0671427ed0bea4fc14a5d4</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBH00yF3XkeqTRajEKKOQQJNSrn3naLszs</string>
+    <string name="google_storage_bucket" translatable="false">solar-system-deb94.appspot.com</string>
+    <string name="project_id" translatable="false">solar-system-deb94</string>
+</resources>

@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:fillViewport="true"
+android:id="@+id/main_layout"
+    android:background="@drawable/background_image"
+tools:context=".Admin_search_Supplier_Activity">
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp">
+
+
+    <include
+        android:id="@+id/include2"
+        layout="@layout/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="233dp"
+        android:layout_height="38dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:text="Manage Suppliers"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.127"
+        app:layout_constraintStart_toStartOf="@+id/include2"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/chip1"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+        android:layout_width="310dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="16dp"
+        android:hint="Search"
+        app:boxStrokeColor="#000000"
+        app:boxStrokeWidth="1dp"
+        app:hintTextColor="#4E4A4A"
+        app:layout_constraintBottom_toTopOf="@+id/listView"
+        app:layout_constraintStart_toStartOf="@+id/listView"
+        app:layout_constraintTop_toBottomOf="@+id/include2"
+        app:layout_constraintVertical_bias="0.217"
+        app:shapeAppearanceOverlay="@style/Button4">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/txt_S_Name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:textColor="@color/black"
+            android:textSize="13sp"
+            android:textStyle="normal"
+            app:errorEnabled="true" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <ImageView
+        android:id="@+id/btn_Search"
+        android:layout_width="40dp"
+        android:layout_height="38dp"
+
+        android:layout_toEndOf="@+id/chip1"
+
+        app:layout_constraintBottom_toBottomOf="@+id/chip1"
+        app:layout_constraintEnd_toEndOf="@+id/listView"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/chip1"
+        app:layout_constraintTop_toTopOf="@+id/chip1"
+        app:srcCompat="@drawable/ic_search" />
+
+
+    <Button
+        android:id="@+id/btn_Pending"
+        android:layout_width="109dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_toEndOf="@+id/btn_all"
+        android:elevation="15dp"
+        android:gravity="center"
+        android:text="Pending"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textSize="17sp"
+        app:backgroundTint="@color/myColor7"
+        app:layout_constraintBottom_toTopOf="@+id/listView"
+        app:layout_constraintEnd_toStartOf="@+id/btn_approved"
+        app:layout_constraintHorizontal_bias="0.414"
+        app:layout_constraintStart_toEndOf="@+id/btn_all"
+        app:layout_constraintTop_toBottomOf="@+id/chip1"
+        app:layout_constraintVertical_bias="0.0"
+        app:shapeAppearanceOverlay="@style/Button5" />
+
+    <Button
+        android:id="@+id/btn_all"
+        android:layout_width="109dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:elevation="15dp"
+        android:gravity="center"
+        android:text="All"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textSize="17sp"
+        app:backgroundTint="@color/myColor8"
+        app:layout_constraintBottom_toTopOf="@+id/listView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/chip1"
+        app:layout_constraintVertical_bias="0.0"
+        app:shapeAppearanceOverlay="@style/Button5" />
+
+    <Button
+        android:id="@+id/btn_approved"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_gravity="center"
+        android:layout_marginEnd="4dp"
+        android:layout_toEndOf="@+id/btn_Pending"
+        android:elevation="15dp"
+        android:gravity="center"
+        android:text="Approved"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textSize="17sp"
+        app:backgroundTint="@color/myColor3"
+        app:layout_constraintBottom_toTopOf="@+id/listView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/chip1"
+        app:layout_constraintVertical_bias="0.0"
+        app:shapeAppearanceOverlay="@style/Button5" />
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="370dp"
+        android:layout_height="531dp"
+        android:layout_marginTop="180dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.609"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/include2" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
+
+
+
+

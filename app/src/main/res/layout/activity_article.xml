@@ -1,0 +1,154 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background_image"
+        tools:context=".Article_Activity">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_above="@id/buttom_navigator">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+
+
+            <include
+                android:id="@+id/include2"
+                layout="@layout/toolbar2"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.093"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="284dp"
+                android:layout_height="40dp"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:text="Knowledge Base"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="@+id/include2"
+                app:layout_constraintEnd_toEndOf="@+id/include2"
+                app:layout_constraintStart_toStartOf="@+id/include2"
+                app:layout_constraintTop_toTopOf="@+id/include2" />
+
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="345dp"
+                android:layout_height="196dp"
+                android:layout_marginTop="36dp"
+                android:padding="5dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/include2"
+                app:srcCompat="@drawable/articalehome" />
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="320dp"
+                android:layout_height="66dp"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/button"
+                android:drawableLeft="@drawable/solarnews"
+                android:drawableRight="@drawable/ic_baseline_navigate_next_24"
+                android:text="Solar News"
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                app:backgroundTint="#84C1D4"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.494"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="320dp"
+                android:layout_height="66dp"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/button"
+                android:drawableLeft="@drawable/webnews"
+                android:drawableRight="@drawable/ic_baseline_navigate_next_24"
+                android:text="Articles"
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                app:backgroundTint="#84C1D4"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.494"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/button1" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="320dp"
+                android:layout_height="66dp"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/button"
+                android:drawableLeft="@drawable/feedback"
+                android:drawableRight="@drawable/ic_baseline_navigate_next_24"
+                android:text="Feedbacks"
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                app:backgroundTint="#84C1D4"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.494"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/button2" />
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="320dp"
+                android:layout_height="66dp"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/button"
+                android:drawableLeft="@drawable/myfeedback"
+                android:drawableRight="@drawable/ic_baseline_navigate_next_24"
+                android:text="My Feedbacks"
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                app:backgroundTint="#84C1D4"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.494"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/button3" />
+
+
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+</ScrollView>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/buttom_navigator"
+        android:layout_width="350dp"
+        android:layout_height="56dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="29dp"
+        android:layout_marginBottom="-2dp"
+        android:background="@drawable/switch_trcks"
+        app:itemIconTint="@drawable/serlector"
+        app:itemTextColor="@drawable/serlector"
+        app:menu="@menu/menu_customer" />
+
+</RelativeLayout>

@@ -1,0 +1,778 @@
+[
+    {
+        "merged": "com.example.solarapplication.app-merged_res-35:/drawable_solar_add.png.flat",
+        "source": "com.example.solarapplication.app-main-37:/drawable/solar_add.png"
+    },
+    {
+        "merged": "com.example.solarapplication.app-merged_res-35:/drawable_ic_star_empt.xml.flat",
+        "source": "com.example.solarapplication.app-main-37:/drawable/ic_star_empt.xml"
+    },
+    {
+        "merged": "com.example.solarapplication.app-merged_res-35:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.solarapplication.app-main-37:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.solarapplication.app-merged_res-35:/drawable_baseline_warning_24.xml.flat",
+        "source": "com.example.solarapplication.app-main-37:/drawable/baseline_warning_24.xml"
+    },
+    {
+        "merged": "com.example.solarapplication.app-merged_res-35:/layout_activity_customer_profile.xml.flat",
+        "source": "com.example.solarapplication.app-main-37:/layout/activity_customer_profile.xml"
+    },
+    {
+        "merged": "com.example.solarapplication.app-merged_res-35:/mipmap-xxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.example.solarapplication.app-main-37:/mipmap-xxhdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "com.example.solarapplication.app-merged_res-35:/drawable_plus.png.flat",
+        "source": "com.example.solarapplication.app-main-37:/drawable/plus.png"
+    },
+    {
+        "merged": "com.example.solarapplication.app-merged_res-35:/drawable_likes.png.flat",
+        "source": "com.example.solarapplication.app-main-37:/drawable/likes.png"
+    },
+    {
+        "merged": "com.example.solarapplication.app-merged_res-35:/layout_activity_contact_page2.xml.flat",
+        "source": "com.example.solarapplication.app-main-37:/layout/activity_contact_page2.xml"
+    },
+    {
+        "merged": "com.example.solarapplication.app-merged_res-35:/drawable_i3.png.flat",
+        "source": "com.example.solarapplication.app-main-37:/drawable/i3.png"
+    },
+    {
+        "merged": "com.example.solarapplication.app-merged_res-35:/layout_customer_feedback_layout.xml.flat",
+        "source": "com.example.solarapplication.app-main-37:/layout/customer_feedback_layout.xml"
+    },
+    {
+        "merged": "com.example.solarapplication.app-merged_res-35:/drawable_ic_star_full.xml.flat",
+        "source": "com.example.solarapplication.app-main-37:/drawable/ic_star_full.xml"
+    },
+    {
+        "merged": "com.example.solarapplication.app-merged_res-35:/layout_activity_our_warranty.xml.flat",
+        "source": "com.example.solarapplication.app-main-37:/layout/activity_our_warranty.xml"
+    },
+    {
+        "merged": "com.example.solarapplication.app-merged_res-35:/drawable_circle_shape.xml.flat",
+        "source": "com.example.solarapplication.app-main-37:/drawable/circle_shape.xml"
+    },
+    {
+        "merged": "com.example.solarapplication.app-merged_res-35:/layout_supplier_product_layout.xml.flat",
+        "source": "com.example.solarapplication.app-main-37:/layout/supplier_product_layout.xml"
+    },
+    {
+        "merged": "com.example.solarapplication.app-merged_res-35:/drawable_ic_image_search.xml.flat",
+        "source": "com.example.solarapplication.app-main-37:/drawable/ic_image_search.xml"
+    },
+    {
+        "merged": "com.example.solarapplication.app-merged_res-35:/drawable_myfeedback.png.flat",
+        "source": "com.example.solarapplication.app-main-37:/drawable/myfeedback.png"
+    },
+    {
+        "merged": "com.example.solarapplication.app-merged_res-35:/drawable_solarprod.png.flat",
+        "source": "com.example.solarapplication.app-main-37:/drawable/solarprod.png"
+    },
+    {
+        "merged": "com.example.solarapplication.app-merged_res-35:/drawable_solarnews.png.flat",
+        "source": "com.example.solarapplication.app-main-37:/drawable/solarnews.png"
+    },
+    {
+        "merged": "com.example.solarapplication.app-merged_res-35:/drawable_our_services.jpg.flat",
+        "source": "com.example.solarapplication.app-main-37:/drawable/our_services.jpg"
+    },
+    {
+        "merged": "com.example.solarapplication.app-merged_res-35:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.example.solarapplication.app-main-37:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.example.solarapplication.app-merged_res-35:/layout_admin_product_layout.xml.flat",
+        "source": "com.example.solarapplication.app-main-37:/layout/admin_product_layout.xml"
+    },
+    {
+        "merged": "com.example.solarapplication.app-merged_res-35:/drawable_battery.jpg.flat",
+        "source": "com.example.solarapplication.app-main-37:/drawable/battery.jpg"
+    },
+    {
+        "merged": "com.example.solarapplication.app-merged_res-35:/drawable_calculate.png.flat",
+        "source": "com.example.solarapplication.app-main-37:/drawable/calculate.png"
+    },
+    {
+        "merged": "com.example.solarapplication.app-merged_res-35:/font_font4_sithum.otf.flat",
+        "source": "com.example.solarapplication.app-main-37:/font/font4_sithum.otf"
+    },
+    {
+        "merged": "com.example.solarapplication.app-merged_res-35:/drawable_i4.png.flat",
+        "source": "com.example.solarapplication.app-main-37:/drawable/i4.png"
+    },
+    {
+        "merged": "com.example.solarapplication.app-merged_res-35:/mipmap-hdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.example.solarapplication.app-main-37:/mipmap-hdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "com.example.solarapplication.app-merged_res-35:/xml_backup_rules.xml.flat",
+        "source": "com.example.solarapplication.app-main-37:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.example.solarapplication.app-merged_res-35:/drawable_ic_right.xml.flat",
+        "source": "com.example.solarapplication.app-main-37:/drawable/ic_right.xml"
+    },
+    {
+        "merged": "com.example.solarapplication.app-merged_res-35:/drawable_ic_baseline_arrow_right_alt_24.xml.flat",
+        "source": "com.example.solarapplication.app-main-37:/drawable/ic_baseline_arrow_right_alt_24.xml"
+    },
+    {
+        "merged": "com.example.solarapplication.app-merged_res-35:/layout_activity_add_articles.xml.flat",
+        "source": "com.example.solarapplication.app-main-37:/layout/activity_add_articles.xml"
+    },
+    {
+        "merged": "com.example.solarapplication.app-merged_res-35:/drawable_baseline_send_24.xml.flat",
+        "source": "com.example.solarapplication.app-main-37:/drawable/baseline_send_24.xml"
+    },
+    {
+        "merged": "com.example.solarapplication.app-merged_res-35:/drawable_express.jpg.flat",
+        "source": "com.example.solarapplication.app-main-37:/drawable/express.jpg"
+    },
+    {
+        "merged": "com.example.solarapplication.app-merged_res-35:/drawable_admin.png.flat",
+        "source": "com.example.solarapplication.app-main-37:/drawable/admin.png"
+    },
+    {
+        "merged": "com.example.solarapplication.app-merged_res-35:/drawable_services.png.flat",
+        "source": "com.example.solarapplication.app-main-37:/drawable/services.png"
+    },
+    {
+        "merged": "com.example.solarapplication.app-merged_res-35:/drawable_admin_update.png.flat",
+        "source": "com.example.solarapplication.app-main-37:/drawable/admin_update.png"
+    },
+    {
+        "merged": "com.example.solarapplication.app-merged_res-35:/layout_activity_supplier_order.xml.flat",
+        "source": "com.example.solarapplication.app-main-37:/layout/activity_supplier_order.xml"
+    },
+    {
+        "merged": "com.example.solarapplication.app-merged_res-35:/drawable_ic_baseline_error_outline_24.xml.flat",
+        "source": "com.example.solarapplication.app-main-37:/drawable/ic_baseline_error_outline_24.xml"
+    },
+    {
+        "merged": "com.example.solarapplication.app-merged_res-35:/drawable_flexibility.jpg.flat",
+        "source": "com.example.solarapplication.app-main-37:/drawable/flexibility.jpg"
+    },
+    {
+        "merged": "com.example.solarapplication.app-merged_res-35:/drawable_sign_out.png.flat",
+        "source": "com.example.solarapplication.app-main-37:/drawable/sign_out.png"
+    },
+    {
+        "merged": "com.example.solarapplication.app-merged_res-35:/layout_activity_solar_news.xml.flat",
+        "source": "com.example.solarapplication.app-main-37:/layout/activity_solar_news.xml"
+    },
+    {
+        "merged": "com.example.solarapplication.app-merged_res-35:/drawable_admin_add_properties.png.flat",
+        "source": "com.example.solarapplication.app-main-37:/drawable/admin_add_properties.png"
+    },
+    {
+        "merged": "com.example.solarapplication.app-merged_res-35:/layout_activity_admin_view_notification.xml.flat",
+        "source": "com.example.solarapplication.app-main-37:/layout/activity_admin_view_notification.xml"
+    },
+    {
+        "merged": "com.example.solarapplication.app-merged_res-35:/layout_activity_chat_bot.xml.flat",
+        "source": "com.example.solarapplication.app-main-37:/layout/activity_chat_bot.xml"
+    },
+    {
+        "merged": "com.example.solarapplication.app-merged_res-35:/drawable_i5.png.flat",
+        "source": "com.example.solarapplication.app-main-37:/drawable/i5.png"
+    },
+    {
+        "merged": "com.example.solarapplication.app-merged_res-35:/layout_suplier_post_layout.xml.flat",
+        "source": "com.example.solarapplication.app-main-37:/layout/suplier_post_layout.xml"
+    },
+    {
+        "merged": "com.example.solarapplication.app-merged_res-35:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.solarapplication.app-main-37:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.solarapplication.app-merged_res-35:/drawable_journalist.jpg.flat",
+        "source": "com.example.solarapplication.app-main-37:/drawable/journalist.jpg"
+    },
+    {
+        "merged": "com.example.solarapplication.app-merged_res-35:/drawable_after_serverice.jpg.flat",
+        "source": "com.example.solarapplication.app-main-37:/drawable/after_serverice.jpg"
+    },
+    {
+        "merged": "com.example.solarapplication.app-merged_res-35:/layout_activity_supplier_signup.xml.flat",
+        "source": "com.example.solarapplication.app-main-37:/layout/activity_supplier_signup.xml"
+    },
+    {
+        "merged": "com.example.solarapplication.app-merged_res-35:/drawable_reject.png.flat",
+        "source": "com.example.solarapplication.app-main-37:/drawable/reject.png"
+    },
+    {
+        "merged": "com.example.solarapplication.app-merged_res-35:/layout_activity_view_products.xml.flat",
+        "source": "com.example.solarapplication.app-main-37:/layout/activity_view_products.xml"
+    },
+    {
+        "merged": "com.example.solarapplication.app-merged_res-35:/font_font3_sithum.ttf.flat",
+        "source": "com.example.solarapplication.app-main-37:/font/font3_sithum.ttf"
+    },
+    {
+        "merged": "com.example.solarapplication.app-merged_res-35:/layout_activity_update_product.xml.flat",
+        "source": "com.example.solarapplication.app-main-37:/layout/activity_update_product.xml"
+    },
+    {
+        "merged": "com.example.solarapplication.app-merged_res-35:/drawable_background_image.jpg.flat",
+        "source": "com.example.solarapplication.app-main-37:/drawable/background_image.jpg"
+    },
+    {
+        "merged": "com.example.solarapplication.app-merged_res-35:/layout_activity_view_post.xml.flat",
+        "source": "com.example.solarapplication.app-main-37:/layout/activity_view_post.xml"
+    },
+    {
+        "merged": "com.example.solarapplication.app-merged_res-35:/drawable_i2.png.flat",
+        "source": "com.example.solarapplication.app-main-37:/drawable/i2.png"
+    },
+    {
+        "merged": "com.example.solarapplication.app-merged_res-35:/layout_activity_customer_feedback.xml.flat",
+        "source": "com.example.solarapplication.app-main-37:/layout/activity_customer_feedback.xml"
+    },
+    {
+        "merged": "com.example.solarapplication.app-merged_res-35:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.solarapplication.app-main-37:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.solarapplication.app-merged_res-35:/mipmap-mdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.example.solarapplication.app-main-37:/mipmap-mdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "com.example.solarapplication.app-merged_res-35:/layout_activity_journalist_home.xml.flat",
+        "source": "com.example.solarapplication.app-main-37:/layout/activity_journalist_home.xml"
+    },
+    {
+        "merged": "com.example.solarapplication.app-merged_res-35:/drawable_next.png.flat",
+        "source": "com.example.solarapplication.app-main-37:/drawable/next.png"
+    },
+    {
+        "merged": "com.example.solarapplication.app-merged_res-35:/layout_activity_admin_search_supplier.xml.flat",
+        "source": "com.example.solarapplication.app-main-37:/layout/activity_admin_search_supplier.xml"
+    },
+    {
+        "merged": "com.example.solarapplication.app-merged_res-35:/layout_activity_admin_view_supplier.xml.flat",
+        "source": "com.example.solarapplication.app-main-37:/layout/activity_admin_view_supplier.xml"
+    },
+    {
+        "merged": "com.example.solarapplication.app-merged_res-35:/layout_activity_admin_view_products.xml.flat",
+        "source": "com.example.solarapplication.app-main-37:/layout/activity_admin_view_products.xml"
+    },
+    {
+        "merged": "com.example.solarapplication.app-merged_res-35:/layout_activity_delivery_service.xml.flat",
+        "source": "com.example.solarapplication.app-main-37:/layout/activity_delivery_service.xml"
+    },
+    {
+        "merged": "com.example.solarapplication.app-merged_res-35:/layout_view_supplier_layout.xml.flat",
+        "source": "com.example.solarapplication.app-main-37:/layout/view_supplier_layout.xml"
+    },
+    {
+        "merged": "com.example.solarapplication.app-merged_res-35:/anim_slide_out_left.xml.flat",
+        "source": "com.example.solarapplication.app-main-37:/anim/slide_out_left.xml"
+    },
+    {
+        "merged": "com.example.solarapplication.app-merged_res-35:/xml_data_extraction_rules.xml.flat",
+        "source": "com.example.solarapplication.app-main-37:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.example.solarapplication.app-merged_res-35:/layout_activity_admin_search_products.xml.flat",
+        "source": "com.example.solarapplication.app-main-37:/layout/activity_admin_search_products.xml"
+    },
+    {
+        "merged": "com.example.solarapplication.app-merged_res-35:/drawable_ic_person.xml.flat",
+        "source": "com.example.solarapplication.app-main-37:/drawable/ic_person.xml"
+    },
+    {
+        "merged": "com.example.solarapplication.app-merged_res-35:/drawable_home_icon.png.flat",
+        "source": "com.example.solarapplication.app-main-37:/drawable/home_icon.png"
+    },
+    {
+        "merged": "com.example.solarapplication.app-merged_res-35:/layout_activity_login.xml.flat",
+        "source": "com.example.solarapplication.app-main-37:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.example.solarapplication.app-merged_res-35:/drawable_ic_star_half.xml.flat",
+        "source": "com.example.solarapplication.app-main-37:/drawable/ic_star_half.xml"
+    },
+    {
+        "merged": "com.example.solarapplication.app-merged_res-35:/drawable_ic_baseline_star_rate_24.xml.flat",
+        "source": "com.example.solarapplication.app-main-37:/drawable/ic_baseline_star_rate_24.xml"
+    },
+    {
+        "merged": "com.example.solarapplication.app-merged_res-35:/drawable_approved.png.flat",
+        "source": "com.example.solarapplication.app-main-37:/drawable/approved.png"
+    },
+    {
+        "merged": "com.example.solarapplication.app-merged_res-35:/layout_activity_supplier_profile.xml.flat",
+        "source": "com.example.solarapplication.app-main-37:/layout/activity_supplier_profile.xml"
+    },
+    {
+        "merged": "com.example.solarapplication.app-merged_res-35:/drawable_circle_background.xml.flat",
+        "source": "com.example.solarapplication.app-main-37:/drawable/circle_background.xml"
+    },
+    {
+        "merged": "com.example.solarapplication.app-merged_res-35:/layout_chat_item.xml.flat",
+        "source": "com.example.solarapplication.app-main-37:/layout/chat_item.xml"
+    },
+    {
+        "merged": "com.example.solarapplication.app-merged_res-35:/font_font2_sithum.ttf.flat",
+        "source": "com.example.solarapplication.app-main-37:/font/font2_sithum.ttf"
+    },
+    {
+        "merged": "com.example.solarapplication.app-merged_res-35:/layout_customer_order_layout.xml.flat",
+        "source": "com.example.solarapplication.app-main-37:/layout/customer_order_layout.xml"
+    },
+    {
+        "merged": "com.example.solarapplication.app-merged_res-35:/drawable_delete12.png.flat",
+        "source": "com.example.solarapplication.app-main-37:/drawable/delete12.png"
+    },
+    {
+        "merged": "com.example.solarapplication.app-merged_res-35:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.example.solarapplication.app-main-37:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.solarapplication.app-merged_res-35:/drawable_online_support.png.flat",
+        "source": "com.example.solarapplication.app-main-37:/drawable/online_support.png"
+    },
+    {
+        "merged": "com.example.solarapplication.app-merged_res-35:/drawable_view_bg.xml.flat",
+        "source": "com.example.solarapplication.app-main-37:/drawable/view_bg.xml"
+    },
+    {
+        "merged": "com.example.solarapplication.app-merged_res-35:/layout_activity_calculator_page.xml.flat",
+        "source": "com.example.solarapplication.app-main-37:/layout/activity_calculator_page.xml"
+    },
+    {
+        "merged": "com.example.solarapplication.app-merged_res-35:/layout_toolbar.xml.flat",
+        "source": "com.example.solarapplication.app-main-37:/layout/toolbar.xml"
+    },
+    {
+        "merged": "com.example.solarapplication.app-merged_res-35:/font_font8_sithum.ttf.flat",
+        "source": "com.example.solarapplication.app-main-37:/font/font8_sithum.ttf"
+    },
+    {
+        "merged": "com.example.solarapplication.app-merged_res-35:/drawable_articalehome.png.flat",
+        "source": "com.example.solarapplication.app-main-37:/drawable/articalehome.png"
+    },
+    {
+        "merged": "com.example.solarapplication.app-merged_res-35:/drawable_calculator.jpg.flat",
+        "source": "com.example.solarapplication.app-main-37:/drawable/calculator.jpg"
+    },
+    {
+        "merged": "com.example.solarapplication.app-merged_res-35:/anim_slide_out_right.xml.flat",
+        "source": "com.example.solarapplication.app-main-37:/anim/slide_out_right.xml"
+    },
+    {
+        "merged": "com.example.solarapplication.app-merged_res-35:/drawable_rounded_corner.xml.flat",
+        "source": "com.example.solarapplication.app-main-37:/drawable/rounded_corner.xml"
+    },
+    {
+        "merged": "com.example.solarapplication.app-merged_res-35:/drawable_serlector.xml.flat",
+        "source": "com.example.solarapplication.app-main-37:/drawable/serlector.xml"
+    },
+    {
+        "merged": "com.example.solarapplication.app-merged_res-35:/drawable_feedbacks.png.flat",
+        "source": "com.example.solarapplication.app-main-37:/drawable/feedbacks.png"
+    },
+    {
+        "merged": "com.example.solarapplication.app-merged_res-35:/drawable_solarpannel.jpg.flat",
+        "source": "com.example.solarapplication.app-main-37:/drawable/solarpannel.jpg"
+    },
+    {
+        "merged": "com.example.solarapplication.app-merged_res-35:/drawable_profile_icon.png.flat",
+        "source": "com.example.solarapplication.app-main-37:/drawable/profile_icon.png"
+    },
+    {
+        "merged": "com.example.solarapplication.app-merged_res-35:/layout_activity_supplier_search_products.xml.flat",
+        "source": "com.example.solarapplication.app-main-37:/layout/activity_supplier_search_products.xml"
+    },
+    {
+        "merged": "com.example.solarapplication.app-merged_res-35:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.solarapplication.app-main-37:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.solarapplication.app-merged_res-35:/layout_activity_admin_search_feedback.xml.flat",
+        "source": "com.example.solarapplication.app-main-37:/layout/activity_admin_search_feedback.xml"
+    },
+    {
+        "merged": "com.example.solarapplication.app-merged_res-35:/font_font1_sithum.ttf.flat",
+        "source": "com.example.solarapplication.app-main-37:/font/font1_sithum.ttf"
+    },
+    {
+        "merged": "com.example.solarapplication.app-merged_res-35:/layout_activity_admin_search_articles.xml.flat",
+        "source": "com.example.solarapplication.app-main-37:/layout/activity_admin_search_articles.xml"
+    },
+    {
+        "merged": "com.example.solarapplication.app-merged_res-35:/layout_activity_supplier_dashbord.xml.flat",
+        "source": "com.example.solarapplication.app-main-37:/layout/activity_supplier_dashbord.xml"
+    },
+    {
+        "merged": "com.example.solarapplication.app-merged_res-35:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.example.solarapplication.app-main-37:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.example.solarapplication.app-merged_res-35:/drawable_manage.png.flat",
+        "source": "com.example.solarapplication.app-main-37:/drawable/manage.png"
+    },
+    {
+        "merged": "com.example.solarapplication.app-merged_res-35:/layout_activity_after_services.xml.flat",
+        "source": "com.example.solarapplication.app-main-37:/layout/activity_after_services.xml"
+    },
+    {
+        "merged": "com.example.solarapplication.app-merged_res-35:/drawable_ic_mail.xml.flat",
+        "source": "com.example.solarapplication.app-main-37:/drawable/ic_mail.xml"
+    },
+    {
+        "merged": "com.example.solarapplication.app-merged_res-35:/drawable_switch_trcks.xml.flat",
+        "source": "com.example.solarapplication.app-main-37:/drawable/switch_trcks.xml"
+    },
+    {
+        "merged": "com.example.solarapplication.app-merged_res-35:/menu_menu_customer.xml.flat",
+        "source": "com.example.solarapplication.app-main-37:/menu/menu_customer.xml"
+    },
+    {
+        "merged": "com.example.solarapplication.app-merged_res-35:/drawable_ic_search.xml.flat",
+        "source": "com.example.solarapplication.app-main-37:/drawable/ic_search.xml"
+    },
+    {
+        "merged": "com.example.solarapplication.app-merged_res-35:/drawable_ic_baseline_adjust_24.xml.flat",
+        "source": "com.example.solarapplication.app-main-37:/drawable/ic_baseline_adjust_24.xml"
+    },
+    {
+        "merged": "com.example.solarapplication.app-merged_res-35:/drawable_pannel.jpg.flat",
+        "source": "com.example.solarapplication.app-main-37:/drawable/pannel.jpg"
+    },
+    {
+        "merged": "com.example.solarapplication.app-merged_res-35:/drawable_custom_star.xml.flat",
+        "source": "com.example.solarapplication.app-main-37:/drawable/custom_star.xml"
+    },
+    {
+        "merged": "com.example.solarapplication.app-merged_res-35:/drawable_reliable.jpg.flat",
+        "source": "com.example.solarapplication.app-main-37:/drawable/reliable.jpg"
+    },
+    {
+        "merged": "com.example.solarapplication.app-merged_res-35:/drawable_exit.xml.flat",
+        "source": "com.example.solarapplication.app-main-37:/drawable/exit.xml"
+    },
+    {
+        "merged": "com.example.solarapplication.app-merged_res-35:/layout_admin_notification_layout.xml.flat",
+        "source": "com.example.solarapplication.app-main-37:/layout/admin_notification_layout.xml"
+    },
+    {
+        "merged": "com.example.solarapplication.app-merged_res-35:/layout_activity_signup.xml.flat",
+        "source": "com.example.solarapplication.app-main-37:/layout/activity_signup.xml"
+    },
+    {
+        "merged": "com.example.solarapplication.app-merged_res-35:/layout_confirm_order_layout.xml.flat",
+        "source": "com.example.solarapplication.app-main-37:/layout/confirm_order_layout.xml"
+    },
+    {
+        "merged": "com.example.solarapplication.app-merged_res-35:/layout_customize_product.xml.flat",
+        "source": "com.example.solarapplication.app-main-37:/layout/customize_product.xml"
+    },
+    {
+        "merged": "com.example.solarapplication.app-merged_res-35:/drawable_sigin_up.jpg.flat",
+        "source": "com.example.solarapplication.app-main-37:/drawable/sigin_up.jpg"
+    },
+    {
+        "merged": "com.example.solarapplication.app-merged_res-35:/drawable_store_icon.png.flat",
+        "source": "com.example.solarapplication.app-main-37:/drawable/store_icon.png"
+    },
+    {
+        "merged": "com.example.solarapplication.app-merged_res-35:/layout_activity_admin_manage_news.xml.flat",
+        "source": "com.example.solarapplication.app-main-37:/layout/activity_admin_manage_news.xml"
+    },
+    {
+        "merged": "com.example.solarapplication.app-merged_res-35:/layout_activity_admin_feedback.xml.flat",
+        "source": "com.example.solarapplication.app-main-37:/layout/activity_admin_feedback.xml"
+    },
+    {
+        "merged": "com.example.solarapplication.app-merged_res-35:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.solarapplication.app-main-37:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.solarapplication.app-merged_res-35:/layout_toolbar2.xml.flat",
+        "source": "com.example.solarapplication.app-main-37:/layout/toolbar2.xml"
+    },
+    {
+        "merged": "com.example.solarapplication.app-merged_res-35:/drawable_online_track.jpg.flat",
+        "source": "com.example.solarapplication.app-main-37:/drawable/online_track.jpg"
+    },
+    {
+        "merged": "com.example.solarapplication.app-merged_res-35:/drawable_minus.png.flat",
+        "source": "com.example.solarapplication.app-main-37:/drawable/minus.png"
+    },
+    {
+        "merged": "com.example.solarapplication.app-merged_res-35:/anim_slide_in_right.xml.flat",
+        "source": "com.example.solarapplication.app-main-37:/anim/slide_in_right.xml"
+    },
+    {
+        "merged": "com.example.solarapplication.app-merged_res-35:/drawable_inventor.png.flat",
+        "source": "com.example.solarapplication.app-main-37:/drawable/inventor.png"
+    },
+    {
+        "merged": "com.example.solarapplication.app-merged_res-35:/drawable_edittext.xml.flat",
+        "source": "com.example.solarapplication.app-main-37:/drawable/edittext.xml"
+    },
+    {
+        "merged": "com.example.solarapplication.app-merged_res-35:/mipmap-xhdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.example.solarapplication.app-main-37:/mipmap-xhdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "com.example.solarapplication.app-merged_res-35:/layout_activity_customer_view_orders.xml.flat",
+        "source": "com.example.solarapplication.app-main-37:/layout/activity_customer_view_orders.xml"
+    },
+    {
+        "merged": "com.example.solarapplication.app-merged_res-35:/layout_activity_online_chat_bot.xml.flat",
+        "source": "com.example.solarapplication.app-main-37:/layout/activity_online_chat_bot.xml"
+    },
+    {
+        "merged": "com.example.solarapplication.app-merged_res-35:/font_font7_sihtum.ttf.flat",
+        "source": "com.example.solarapplication.app-main-37:/font/font7_sihtum.ttf"
+    },
+    {
+        "merged": "com.example.solarapplication.app-merged_res-35:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.solarapplication.app-main-37:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.example.solarapplication.app-merged_res-35:/drawable_contactus.jpg.flat",
+        "source": "com.example.solarapplication.app-main-37:/drawable/contactus.jpg"
+    },
+    {
+        "merged": "com.example.solarapplication.app-merged_res-35:/font_font9_sithum.ttf.flat",
+        "source": "com.example.solarapplication.app-main-37:/font/font9_sithum.ttf"
+    },
+    {
+        "merged": "com.example.solarapplication.app-merged_res-35:/drawable_inverter.jpg.flat",
+        "source": "com.example.solarapplication.app-main-37:/drawable/inverter.jpg"
+    },
+    {
+        "merged": "com.example.solarapplication.app-merged_res-35:/anim_slide_in_left.xml.flat",
+        "source": "com.example.solarapplication.app-main-37:/anim/slide_in_left.xml"
+    },
+    {
+        "merged": "com.example.solarapplication.app-merged_res-35:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.example.solarapplication.app-main-37:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.solarapplication.app-merged_res-35:/drawable_button.xml.flat",
+        "source": "com.example.solarapplication.app-main-37:/drawable/button.xml"
+    },
+    {
+        "merged": "com.example.solarapplication.app-merged_res-35:/layout_activity_journalist_manage_articles.xml.flat",
+        "source": "com.example.solarapplication.app-main-37:/layout/activity_journalist_manage_articles.xml"
+    },
+    {
+        "merged": "com.example.solarapplication.app-merged_res-35:/layout_activity_admin_home.xml.flat",
+        "source": "com.example.solarapplication.app-main-37:/layout/activity_admin_home.xml"
+    },
+    {
+        "merged": "com.example.solarapplication.app-merged_res-35:/drawable_waste.png.flat",
+        "source": "com.example.solarapplication.app-main-37:/drawable/waste.png"
+    },
+    {
+        "merged": "com.example.solarapplication.app-merged_res-35:/font_font6_sithum.ttf.flat",
+        "source": "com.example.solarapplication.app-main-37:/font/font6_sithum.ttf"
+    },
+    {
+        "merged": "com.example.solarapplication.app-merged_res-35:/drawable_feedback.png.flat",
+        "source": "com.example.solarapplication.app-main-37:/drawable/feedback.png"
+    },
+    {
+        "merged": "com.example.solarapplication.app-merged_res-35:/drawable_baseline_shopping_cart_24.xml.flat",
+        "source": "com.example.solarapplication.app-main-37:/drawable/baseline_shopping_cart_24.xml"
+    },
+    {
+        "merged": "com.example.solarapplication.app-merged_res-35:/drawable_admin_add.png.flat",
+        "source": "com.example.solarapplication.app-main-37:/drawable/admin_add.png"
+    },
+    {
+        "merged": "com.example.solarapplication.app-merged_res-35:/drawable_deliverybox.png.flat",
+        "source": "com.example.solarapplication.app-main-37:/drawable/deliverybox.png"
+    },
+    {
+        "merged": "com.example.solarapplication.app-merged_res-35:/drawable_baseline_notifications_40.xml.flat",
+        "source": "com.example.solarapplication.app-main-37:/drawable/baseline_notifications_40.xml"
+    },
+    {
+        "merged": "com.example.solarapplication.app-merged_res-35:/drawable_i6.png.flat",
+        "source": "com.example.solarapplication.app-main-37:/drawable/i6.png"
+    },
+    {
+        "merged": "com.example.solarapplication.app-merged_res-35:/drawable_pen.png.flat",
+        "source": "com.example.solarapplication.app-main-37:/drawable/pen.png"
+    },
+    {
+        "merged": "com.example.solarapplication.app-merged_res-35:/drawable_ic_location.xml.flat",
+        "source": "com.example.solarapplication.app-main-37:/drawable/ic_location.xml"
+    },
+    {
+        "merged": "com.example.solarapplication.app-merged_res-35:/drawable_ourproducts1.jpg.flat",
+        "source": "com.example.solarapplication.app-main-37:/drawable/ourproducts1.jpg"
+    },
+    {
+        "merged": "com.example.solarapplication.app-merged_res-35:/layout_manage_news_layout.xml.flat",
+        "source": "com.example.solarapplication.app-main-37:/layout/manage_news_layout.xml"
+    },
+    {
+        "merged": "com.example.solarapplication.app-merged_res-35:/drawable_admin_remove.png.flat",
+        "source": "com.example.solarapplication.app-main-37:/drawable/admin_remove.png"
+    },
+    {
+        "merged": "com.example.solarapplication.app-merged_res-35:/drawable_ic__home.xml.flat",
+        "source": "com.example.solarapplication.app-main-37:/drawable/ic__home.xml"
+    },
+    {
+        "merged": "com.example.solarapplication.app-merged_res-35:/drawable_i7.png.flat",
+        "source": "com.example.solarapplication.app-main-37:/drawable/i7.png"
+    },
+    {
+        "merged": "com.example.solarapplication.app-merged_res-35:/mipmap-xxxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.example.solarapplication.app-main-37:/mipmap-xxxhdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "com.example.solarapplication.app-merged_res-35:/drawable_ic_baseline_arrow_back_24.xml.flat",
+        "source": "com.example.solarapplication.app-main-37:/drawable/ic_baseline_arrow_back_24.xml"
+    },
+    {
+        "merged": "com.example.solarapplication.app-merged_res-35:/drawable_contact.jpg.flat",
+        "source": "com.example.solarapplication.app-main-37:/drawable/contact.jpg"
+    },
+    {
+        "merged": "com.example.solarapplication.app-merged_res-35:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.example.solarapplication.app-main-37:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.solarapplication.app-merged_res-35:/drawable_ic_phone_24.xml.flat",
+        "source": "com.example.solarapplication.app-main-37:/drawable/ic_phone_24.xml"
+    },
+    {
+        "merged": "com.example.solarapplication.app-merged_res-35:/layout_activity_customer_display_all_feedback.xml.flat",
+        "source": "com.example.solarapplication.app-main-37:/layout/activity_customer_display_all_feedback.xml"
+    },
+    {
+        "merged": "com.example.solarapplication.app-merged_res-35:/drawable_user_image.jpg.flat",
+        "source": "com.example.solarapplication.app-main-37:/drawable/user_image.jpg"
+    },
+    {
+        "merged": "com.example.solarapplication.app-merged_res-35:/drawable_btn_bg.xml.flat",
+        "source": "com.example.solarapplication.app-main-37:/drawable/btn_bg.xml"
+    },
+    {
+        "merged": "com.example.solarapplication.app-merged_res-35:/drawable_login_img.jpg.flat",
+        "source": "com.example.solarapplication.app-main-37:/drawable/login_img.jpg"
+    },
+    {
+        "merged": "com.example.solarapplication.app-merged_res-35:/drawable_webnews.png.flat",
+        "source": "com.example.solarapplication.app-main-37:/drawable/webnews.png"
+    },
+    {
+        "merged": "com.example.solarapplication.app-merged_res-35:/layout_customer_all_feedback_layout.xml.flat",
+        "source": "com.example.solarapplication.app-main-37:/layout/customer_all_feedback_layout.xml"
+    },
+    {
+        "merged": "com.example.solarapplication.app-merged_res-35:/drawable_our_warranty.jpg.flat",
+        "source": "com.example.solarapplication.app-main-37:/drawable/our_warranty.jpg"
+    },
+    {
+        "merged": "com.example.solarapplication.app-merged_res-35:/layout_activity_journalist_signup.xml.flat",
+        "source": "com.example.solarapplication.app-main-37:/layout/activity_journalist_signup.xml"
+    },
+    {
+        "merged": "com.example.solarapplication.app-merged_res-35:/layout_activity_customer_home.xml.flat",
+        "source": "com.example.solarapplication.app-main-37:/layout/activity_customer_home.xml"
+    },
+    {
+        "merged": "com.example.solarapplication.app-merged_res-35:/layout_dialog_layout.xml.flat",
+        "source": "com.example.solarapplication.app-main-37:/layout/dialog_layout.xml"
+    },
+    {
+        "merged": "com.example.solarapplication.app-merged_res-35:/layout_activity_customer_search_articles.xml.flat",
+        "source": "com.example.solarapplication.app-main-37:/layout/activity_customer_search_articles.xml"
+    },
+    {
+        "merged": "com.example.solarapplication.app-merged_res-35:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.solarapplication.app-main-37:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.solarapplication.app-merged_res-35:/layout_activity_article.xml.flat",
+        "source": "com.example.solarapplication.app-main-37:/layout/activity_article.xml"
+    },
+    {
+        "merged": "com.example.solarapplication.app-merged_res-35:/drawable_i1.png.flat",
+        "source": "com.example.solarapplication.app-main-37:/drawable/i1.png"
+    },
+    {
+        "merged": "com.example.solarapplication.app-merged_res-35:/layout_activity_view_supplier_products.xml.flat",
+        "source": "com.example.solarapplication.app-main-37:/layout/activity_view_supplier_products.xml"
+    },
+    {
+        "merged": "com.example.solarapplication.app-merged_res-35:/font_font7_sithum.ttf.flat",
+        "source": "com.example.solarapplication.app-main-37:/font/font7_sithum.ttf"
+    },
+    {
+        "merged": "com.example.solarapplication.app-merged_res-35:/font_font_10_bolt_sithum.ttf.flat",
+        "source": "com.example.solarapplication.app-main-37:/font/font_10_bolt_sithum.ttf"
+    },
+    {
+        "merged": "com.example.solarapplication.app-merged_res-35:/layout_activity_contact_page.xml.flat",
+        "source": "com.example.solarapplication.app-main-37:/layout/activity_contact_page.xml"
+    },
+    {
+        "merged": "com.example.solarapplication.app-merged_res-35:/layout_activity_service_page.xml.flat",
+        "source": "com.example.solarapplication.app-main-37:/layout/activity_service_page.xml"
+    },
+    {
+        "merged": "com.example.solarapplication.app-merged_res-35:/layout_activity_customer_search_products.xml.flat",
+        "source": "com.example.solarapplication.app-main-37:/layout/activity_customer_search_products.xml"
+    },
+    {
+        "merged": "com.example.solarapplication.app-merged_res-35:/drawable_baseline_add_task_24.xml.flat",
+        "source": "com.example.solarapplication.app-main-37:/drawable/baseline_add_task_24.xml"
+    },
+    {
+        "merged": "com.example.solarapplication.app-merged_res-35:/layout_activity_suppliers_add_data.xml.flat",
+        "source": "com.example.solarapplication.app-main-37:/layout/activity_suppliers_add_data.xml"
+    },
+    {
+        "merged": "com.example.solarapplication.app-merged_res-35:/drawable_greensolar.jpg.flat",
+        "source": "com.example.solarapplication.app-main-37:/drawable/greensolar.jpg"
+    },
+    {
+        "merged": "com.example.solarapplication.app-merged_res-35:/layout_supplier_view_oder_layout.xml.flat",
+        "source": "com.example.solarapplication.app-main-37:/layout/supplier_view_oder_layout.xml"
+    },
+    {
+        "merged": "com.example.solarapplication.app-merged_res-35:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.solarapplication.app-main-37:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.solarapplication.app-merged_res-35:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.example.solarapplication.app-main-37:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.solarapplication.app-merged_res-35:/layout_activity_journalit_update_articles.xml.flat",
+        "source": "com.example.solarapplication.app-main-37:/layout/activity_journalit_update_articles.xml"
+    },
+    {
+        "merged": "com.example.solarapplication.app-merged_res-35:/layout_customer_view_articles_layout.xml.flat",
+        "source": "com.example.solarapplication.app-main-37:/layout/customer_view_articles_layout.xml"
+    },
+    {
+        "merged": "com.example.solarapplication.app-merged_res-35:/layout_activity_customer_view.xml.flat",
+        "source": "com.example.solarapplication.app-main-37:/layout/activity_customer_view.xml"
+    },
+    {
+        "merged": "com.example.solarapplication.app-merged_res-35:/layout_activity_journalist_profile.xml.flat",
+        "source": "com.example.solarapplication.app-main-37:/layout/activity_journalist_profile.xml"
+    },
+    {
+        "merged": "com.example.solarapplication.app-merged_res-35:/drawable_article_icon.png.flat",
+        "source": "com.example.solarapplication.app-main-37:/drawable/article_icon.png"
+    },
+    {
+        "merged": "com.example.solarapplication.app-merged_res-35:/drawable_ic_baseline_navigate_next_24.xml.flat",
+        "source": "com.example.solarapplication.app-main-37:/drawable/ic_baseline_navigate_next_24.xml"
+    }
+]

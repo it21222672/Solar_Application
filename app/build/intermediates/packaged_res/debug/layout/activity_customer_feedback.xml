@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_image"
+    android:fillViewport="true"
+    tools:context=".Customer_Feedback_Activity">
+
+
+        <include
+            android:id="@+id/include2"
+            layout="@layout/toolbar2"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="-1dp" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="284dp"
+            android:layout_height="40dp"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:text="Your Feedback"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/include2"
+            app:layout_constraintEnd_toEndOf="@+id/include2"
+            app:layout_constraintStart_toStartOf="@+id/include2"
+            app:layout_constraintTop_toTopOf="@+id/include2" />
+
+
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="340dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:background="@android:color/transparent"
+            android:gravity="center"
+            android:minWidth="0dp"
+            android:minHeight="0dp"
+            android:padding="0dp"
+            android:text=""
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.492"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/include2" />
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/textInputLayout2"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+            android:layout_width="335dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="208dp"
+            android:hint="Enter Your Feedback"
+            app:boxStrokeColor="#4E4A4A"
+            app:boxStrokeWidth="1dp"
+
+            app:hintTextColor="#4E4A4A"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.46"
+            app:layout_constraintStart_toStartOf="parent"
+            app:shapeAppearanceOverlay="@style/Button4">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/feedback_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/white"
+                    android:ems="10"
+                    android:inputType="textMultiLine"
+                    android:maxLines="5"
+                    android:scrollbars="vertical"
+                    android:textAllCaps="false"
+                    android:textColor="@color/black"
+                    android:textSize="13sp"
+                    android:textStyle="normal" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/btnsubmit"
+            android:layout_width="148dp"
+            android:layout_height="55dp"
+            android:layout_gravity="center"
+            android:elevation="15dp"
+            android:gravity="center"
+            android:text="Submit"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            app:backgroundTint="@color/myColor3"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/rbStars"
+            app:layout_constraintVertical_bias="0.0"
+            app:shapeAppearanceOverlay="@style/Button5" />
+
+        <ListView
+            android:id="@+id/listView"
+            android:layout_width="381dp"
+            android:layout_height="371dp"
+            android:layout_marginTop="12dp"
+            app:layout_constraintBottom_toTopOf="@+id/textInputLayout2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/text1" />
+
+        <RatingBar
+            android:id="@+id/rbStars"
+            android:layout_width="238dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="#FB8C00"
+            android:numStars="5"
+            android:progressBackgroundTint="#979292"
+            android:progressTint="#FB8C00"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textInputLayout2" />
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/buttom_navigator"
+            android:layout_width="350dp"
+            android:layout_height="56dp"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/switch_trcks"
+            app:itemIconTint="@drawable/serlector"
+            app:itemTextColor="@drawable/serlector"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.491"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textInputLayout2"
+            app:layout_constraintVertical_bias="1.0"
+            app:menu="@menu/menu_customer" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

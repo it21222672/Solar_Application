@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+    android:background="@drawable/background_image"
+        android:id="@+id/main_layout"
+        tools:context=".Admin_search_Articles_Activity">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp">
+
+
+            <include
+                android:id="@+id/include2"
+                layout="@layout/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="0dp" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="233dp"
+                android:layout_height="38dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="60dp"
+                android:layout_marginTop="8dp"
+                android:gravity="center"
+                android:text="Manage Articles"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.127"
+                app:layout_constraintStart_toStartOf="@+id/include2"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+            <Button
+                android:id="@+id/btn_all"
+                android:layout_width="109dp"
+                android:layout_height="wrap_content"
+
+                android:layout_gravity="center"
+                android:elevation="15dp"
+                android:gravity="center"
+                android:text="All"
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                app:backgroundTint="@color/myColor8"
+                app:layout_constraintBottom_toTopOf="@+id/listView"
+                app:layout_constraintEnd_toStartOf="@+id/btn_Pending"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/include2"
+                app:shapeAppearanceOverlay="@style/Button5" />
+
+            <Button
+                android:id="@+id/btn_Pending"
+                android:layout_width="109dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_toEndOf="@+id/btn_all"
+                android:elevation="15dp"
+                android:gravity="center"
+                android:text="Pending"
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                app:backgroundTint="@color/myColor7"
+                app:layout_constraintBottom_toTopOf="@+id/listView"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/include2"
+                app:shapeAppearanceOverlay="@style/Button5" />
+
+            <Button
+                android:id="@+id/btn_approved"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_gravity="center"
+                android:layout_toEndOf="@+id/btn_Pending"
+                android:elevation="15dp"
+                android:gravity="center"
+                android:text="Approved"
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                app:backgroundTint="@color/myColor3"
+                app:layout_constraintBottom_toTopOf="@+id/listView"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.794"
+                app:layout_constraintStart_toEndOf="@+id/btn_Pending"
+                app:layout_constraintTop_toBottomOf="@+id/include2"
+                app:shapeAppearanceOverlay="@style/Button5" />
+
+            <ListView
+                android:id="@+id/listView"
+                android:layout_width="368dp"
+                android:layout_height="532dp"
+                android:layout_marginTop="100dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.488"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/include2" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+
+
+

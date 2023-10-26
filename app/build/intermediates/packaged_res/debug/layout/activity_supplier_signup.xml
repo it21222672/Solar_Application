@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:fadingEdge="vertical"
+android:fadingEdgeLength="250dp"
+android:fillViewport="true"
+android:scrollbars="none"
+tools:context=".Supplier_Signup_Activity"
+android:background="@drawable/background_image">
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:elevation="0dp"
+    android:fitsSystemWindows="true">
+
+
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView"
+            android:layout_width="224dp"
+            android:layout_height="224dp"
+            app:cardBackgroundColor="@android:color/transparent"
+            app:cardCornerRadius="110dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/guideline1">
+
+            <ImageView
+                android:id="@+id/imageView15"
+                android:layout_width="226dp"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/user_image" />
+
+        </androidx.cardview.widget.CardView>
+
+
+        <EditText
+            android:id="@+id/Business_Registration_No"
+            android:layout_width="304dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:background="@drawable/circle_background"
+            android:elevation="1dp"
+            android:fontFamily="sans-serif"
+            android:gravity="start"
+            android:textColorHint="@color/black"
+            android:hint="Business Registration No. *"
+            android:inputType="number"
+            android:minWidth="10dp"
+            android:minHeight="48dp"
+            android:padding="12dp"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/companyName_signupe_signup"
+            tools:ignore="MissingConstraints" />
+
+        <EditText
+            android:id="@+id/companyName_signupe_signup"
+            android:layout_width="304dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="48dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/circle_background"
+            android:elevation="1dp"
+            android:fontFamily="sans-serif"
+            android:textColorHint="@color/black"
+            android:gravity="start"
+            android:hint="Company Name *"
+            android:inputType="textPersonName"
+            android:minWidth="10dp"
+            android:minHeight="48dp"
+            android:padding="12dp"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView23" />
+
+        <TextView
+            android:id="@+id/textView23"
+            android:layout_width="136dp"
+            android:layout_height="24dp"
+            android:layout_marginStart="48dp"
+            android:layout_marginTop="48dp"
+            android:text="Create Account"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cardView"
+            tools:ignore="MissingConstraints" />
+
+        <EditText
+            android:id="@+id/textPersonName"
+            android:layout_width="304dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:background="@drawable/circle_background"
+            android:elevation="1dp"
+            android:fontFamily="sans-serif"
+            android:gravity="start"
+            android:hint="Contact Person Name  *"
+            android:textColorHint="@color/black"
+            android:inputType="textPersonName"
+            android:minWidth="10dp"
+            android:minHeight="48dp"
+            android:padding="12dp"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Business_Address"
+            tools:ignore="MissingConstraints" />
+
+        <EditText
+            android:id="@+id/Personposition"
+            android:layout_width="304dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:background="@drawable/circle_background"
+            android:elevation="1dp"
+            android:fontFamily="sans-serif"
+            android:gravity="start"
+            android:hint="Position *"
+            android:textColorHint="@color/black"
+            android:inputType="textPersonName"
+            android:minWidth="10dp"
+            android:minHeight="48dp"
+            android:padding="12dp"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textPersonName"
+            tools:ignore="MissingConstraints" />
+        <EditText
+            android:id="@+id/E_mail"
+            android:layout_width="304dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:background="@drawable/circle_background"
+            android:elevation="1dp"
+            android:fontFamily="sans-serif"
+            android:gravity="start"
+            android:hint="E-mail *"
+            android:inputType="textEmailAddress"
+            android:textColorHint="@color/black"
+            android:minWidth="10dp"
+            android:minHeight="48dp"
+            android:padding="12dp"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Personposition"
+            tools:ignore="MissingConstraints" />
+
+        <EditText
+            android:id="@+id/Contact_No"
+            android:layout_width="304dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:background="@drawable/circle_background"
+            android:elevation="1dp"
+            android:fontFamily="sans-serif"
+            android:gravity="start"
+            android:hint="Contact No. *"
+            android:textColorHint="@color/black"
+            android:inputType="number"
+            android:minWidth="10dp"
+            android:minHeight="48dp"
+            android:padding="12dp"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/E_mail"
+            tools:ignore="MissingConstraints" />
+
+        <EditText
+            android:id="@+id/webaddress"
+            android:layout_width="304dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:background="@drawable/circle_background"
+            android:elevation="1dp"
+            android:fontFamily="sans-serif"
+            android:gravity="start"
+            android:hint="Web Address"
+            android:textColorHint="@color/black"
+            android:inputType="textPersonName"
+            android:minWidth="10dp"
+            android:minHeight="48dp"
+            android:padding="12dp"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Contact_No"
+            tools:ignore="MissingConstraints" />
+
+        <EditText
+            android:id="@+id/Business_Address"
+            android:layout_width="304dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:background="@drawable/circle_background"
+            android:elevation="1dp"
+            android:fontFamily="sans-serif"
+            android:gravity="start"
+            android:hint="Business Address  *"
+            android:textColorHint="@color/black"
+            android:inputType="textPostalAddress"
+            android:minWidth="10dp"
+            android:minHeight="48dp"
+            android:padding="12dp"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Business_Registration_No"
+            tools:ignore="MissingConstraints" />
+
+        <EditText
+            android:id="@+id/Company_Description"
+            android:layout_width="304dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:background="@drawable/circle_background"
+            android:elevation="1dp"
+            android:fontFamily="sans-serif"
+            android:gravity="start"
+            android:hint="Company Description  *"
+            android:textColorHint="@color/black"
+            android:inputType="textPersonName"
+            android:minWidth="10dp"
+            android:minHeight="48dp"
+            android:padding="12dp"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/webaddress"
+            tools:ignore="MissingConstraints" />
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="304dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:background="@drawable/circle_background"
+            android:elevation="1dp"
+            android:fontFamily="sans-serif"
+            android:gravity="start"
+            android:hint="Enter Password *"
+            android:textColorHint="@color/black"
+            android:inputType="textPassword"
+            android:minWidth="10dp"
+            android:minHeight="48dp"
+            android:padding="12dp"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Company_Description"
+            tools:ignore="MissingConstraints" />
+
+        <EditText
+            android:id="@+id/re_password"
+            android:layout_width="304dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:background="@drawable/circle_background"
+            android:elevation="1dp"
+            android:fontFamily="sans-serif"
+            android:gravity="start"
+            android:hint="Re Enter Password *"
+            android:textColorHint="@color/black"
+            android:inputType="textPassword"
+            android:minWidth="10dp"
+            android:minHeight="48dp"
+            android:padding="12dp"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/password"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/textView29"
+            android:layout_width="195dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="8dp"
+            android:text="Already have an acocunt ?"
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toStartOf="@+id/already_member"
+            app:layout_constraintHorizontal_bias="0.897"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/signup_btn1"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/already_member"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="56dp"
+            android:text="Log In"
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="@+id/signup_btn1"
+            app:layout_constraintHorizontal_bias="0.883"
+            app:layout_constraintStart_toStartOf="@+id/signup_btn1"
+            app:layout_constraintTop_toTopOf="@+id/signup_btn1"
+            tools:ignore="MissingConstraints" />
+
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/signup_btn1"
+            android:layout_width="304dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/btn_bg"
+            android:text="Register"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/re_password"
+            tools:ignore="MissingConstraints" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_percent="0.03" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_percent="0.97" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.050890584" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.95" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.12" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.88" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.20" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.80" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+</ScrollView>

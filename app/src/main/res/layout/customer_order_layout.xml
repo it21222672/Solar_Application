@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/productCardView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="4dp"
+    app:cardUseCompatPadding="true"
+    android:background="@drawable/circle_background"
+    android:layout_margin="8dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <!-- Product Image -->
+        <ImageView
+            android:id="@+id/productImage"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_image_search"/>
+
+        <!-- Product Name -->
+        <TextView
+            android:id="@+id/productName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Product Name"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginStart="8dp"
+            android:layout_toEndOf="@id/productImage" />
+
+        <!-- Quantity -->
+        <TextView
+            android:id="@+id/quantity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Quantity: 1"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:layout_below="@id/productName"
+            android:layout_marginTop="4dp"
+            android:layout_marginStart="8dp"
+            android:layout_toEndOf="@id/productImage" />
+
+
+        <!-- Status -->
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/quantity"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="2dp"
+            android:layout_toEndOf="@id/productImage"
+            android:gravity="center"
+            android:text="Date"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/statusname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Status: "
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:layout_below="@id/date"
+            android:layout_marginTop="4dp"
+            android:layout_marginStart="8dp"
+            android:layout_toEndOf="@id/productImage" />
+        <TextView
+            android:id="@+id/status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Status: Pending"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:layout_below="@id/date"
+            android:layout_marginTop="4dp"
+            android:layout_marginStart="1dp"
+            android:layout_toEndOf="@id/statusname" />
+
+        <!-- Remove Button (ImageView) -->
+        <ImageView
+            android:id="@+id/removeButton"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:src="@drawable/waste"
+            android:contentDescription="Remove Product" />
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

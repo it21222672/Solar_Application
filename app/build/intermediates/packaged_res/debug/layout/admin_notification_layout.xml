@@ -1,0 +1,51 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/circle_background">
+
+    <!-- Username -->
+    <TextView
+        android:id="@+id/usernameTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Username"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp" />
+
+    <!-- Email -->
+    <TextView
+        android:id="@+id/emailTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:layout_marginBottom="8dp" />
+
+    <!-- Inquiry Text -->
+    <TextView
+        android:id="@+id/inquiryTextView"
+        android:layout_width="match_parent"
+        android:layout_height="109dp"
+        android:inputType="textNoSuggestions|textMultiLine"
+        android:text="Customer Inquiry Text Goes Here. This text can be quite long, so make sure the layout handles it properly."
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+    <!-- Remove Button -->
+    <ImageButton
+        android:id="@+id/removeButton"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_gravity="end"
+        android:src="@drawable/waste"
+        android:background="?android:attr/selectableItemBackground"
+        android:contentDescription="Remove Inquiry"
+        android:layout_marginTop="8dp" />
+
+</LinearLayout>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "69765343933",
+    "project_id": "solar-system-deb94",
+    "storage_bucket": "solar-system-deb94.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:69765343933:android:0671427ed0bea4fc14a5d4",
+        "android_client_info": {
+          "package_name": "com.example.solarapplication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBH00yF3XkeqTRajEKKOQQJNSrn3naLszs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

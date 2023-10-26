@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">Solar-X</string>
+
+
+    <string name="text_service">Our services</string>
+    <string name="text_1">Our products</string>
+    <string name="btn6">Lets go..!</string>
+    <string name="Our_ervices">Our services</string>
+    <string name="txt_Name">Name</string>
+    <string name="txt_fld_1">Enter your name</string>
+    <string name="txt_vlue">Email</string>
+    <string name="txt_message">Message</string>
+    <string name="txt_eterMessage">Enter your message</string>
+    <string name="btn_submitDetaisl">SUBMIT</string>
+    <string name="btn_aftServices">After services</string>
+    <string name="btn_delevery">Delivery servise</string>
+    <string name="btn_units">Calculate units</string>
+    <string name="text_descript">“As a company, we always work to provide superior services to our customers”</string>
+    <string name="text_one"><![CDATA[We will come to your home & provide services at any time.]]></string>
+    <string name="text_two">There is a 24-hour emergency number (5678)</string>
+    <string name="txt_introThree">We offer 3 free repairs/services</string>
+    <string name="txt_four">Our customers are entitled to special discounts on the purchase of parts</string>
+    <string name="txt_001">Operating 24 hours for your convenience</string>
+    <string name="txt_002">You can book and track the progress of your package via our online platform.</string>
+    <string name="txt_003">The product will be delivered very quickly</string>
+    <string name="txt_payment">Ease of online payment</string>
+    <string name="btn_01">Book my order</string>
+    <string name="txt_cal">Solar Calculator</string>
+    <string name="text_04">Calculate how much power you need with these solar calculators to estimate the size and the cost of the solar panel array needed for your home energy usage. Ideally, you will know your total kilo-watt hours (kWh) used for the past 12 months or the average monthly kWh used each month. Check your electric bills or contact your local utility for your kWh used.The cost and size of a solar panel system depends on your current and future energy consumption, your location, the types of solar panels and components to be installed, and the availability of rebates and incentives.</string>
+    <string name="btn_cal">Calculation</string>
+    <string name="new_text01">"we give more warranty time than other companies and we will guarantee our product quality"</string>
+    <string name="txt_Bttery">Solar Battery</string>
+    <string name="txt_inventor">Solar Inverter</string>
+    <string name="txt_find">Find Products</string>
+    <string name="txt_inverter">EP1500 Plus Series (600W)</string>
+    <string name="txt_brand">Brand: MUST(Pft)</string>
+    <string name="txt_price">Rs. 87,000</string>
+    <string name="txt_quantity">Quantity</string>
+    <string name="txt_one">1</string>
+    <string name="txtButton">Buy Now</string>
+    <string name="txt_hint">Enter product name</string>
+    <string name="txt_products">Visit to buy our precious solar products..</string>
+    <string name="txt22">\"The services we have to bring your solar products to home...\"</string>
+
+    <string name="error">Error</string>
+    <string name="Done">Done</string>
+    <string name="ok">OK</string>
+
+    <string name="fieldes_cant_be_empty">Fields Cant be Empty!</string>
+    <string name="password_and_confirm_password_should_match_to_register">Password and Confirm Password should match to Register</string>
+    <string name="registered_successfully">Registered successfully</string>
+    <string name="user_exitsts">User already exists!</string>
+    <string name="user_email">Enterd Email Already exists!</string>
+    <string name="passwords_not_matching">Passwords not matching!</string>
+    <string name="Sign_in_failed">Sign in Failed!</string>
+
+</resources>

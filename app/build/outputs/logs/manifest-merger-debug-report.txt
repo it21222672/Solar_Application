@@ -1,0 +1,675 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:2:1-169:12
+INJECTED from C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:2:1-169:12
+INJECTED from C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:2:1-169:12
+INJECTED from C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:2:1-169:12
+MERGED from [com.google.android.material:material:1.10.0] C:\Users\Hansani\.gradle\caches\transforms-3\063bffdb27578825f42f277879dd5c02\transformed\material-1.10.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\Hansani\.gradle\caches\transforms-3\30fd80b0d98843f53cc80b5243059cfd\transformed\constraintlayout-2.1.4\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\Hansani\.gradle\caches\transforms-3\a7be56e87c57d9171d0d8aa28658cb3a\transformed\appcompat-resources-1.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\Hansani\.gradle\caches\transforms-3\2a5e2e3cbde528048f3642fabc40d120\transformed\appcompat-1.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-database:20.2.2] C:\Users\Hansani\.gradle\caches\transforms-3\8367178409329933e63c72811a7da648\transformed\firebase-database-20.2.2\AndroidManifest.xml:15:1-37:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Hansani\.gradle\caches\transforms-3\aebd65e26e08bf5816cd77a48fb49a61\transformed\viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.0.1] C:\Users\Hansani\.gradle\caches\transforms-3\7709ce4c41573f98cc72032697f4d67c\transformed\firebase-appcheck-interop-17.0.1\AndroidManifest.xml:15:1-25:12
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] C:\Users\Hansani\.gradle\caches\transforms-3\df47f7de2eea7133db4e794cc93fc21c\transformed\firebase-database-collection-18.0.1\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\Hansani\.gradle\caches\transforms-3\3c19fc2bbd87dd62c81ba23c93205df3\transformed\play-services-base-18.1.0\AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\Hansani\.gradle\caches\transforms-3\e8003ea33a8876cfc4c5a4592a6e4b2e\transformed\firebase-auth-interop-20.0.0\AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-common:20.3.2] C:\Users\Hansani\.gradle\caches\transforms-3\9e41af7578926b50f461f879fd7112d4\transformed\firebase-common-20.3.2\AndroidManifest.xml:15:1-39:12
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] C:\Users\Hansani\.gradle\caches\transforms-3\f2836b0059b35c0a410e95af32490cab\transformed\play-services-tasks-18.0.2\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\Hansani\.gradle\caches\transforms-3\9230e3d0e2305662fe4ecfcd5d45f275\transformed\play-services-basement-18.1.0\AndroidManifest.xml:16:1-26:12
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\Hansani\.gradle\caches\transforms-3\c98bf5e6cee4ee67bb7a2824c67668da\transformed\fragment-1.3.6\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.8.0] C:\Users\Hansani\.gradle\caches\transforms-3\fb264ad5e56de08249eae37b4af7da45\transformed\activity-1.8.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\Hansani\.gradle\caches\transforms-3\1fb3b5cb980c6e4ba2da6b82e5e71fb6\transformed\emoji2-views-helper-1.2.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Hansani\.gradle\caches\transforms-3\83e68f7926ebe85388f03774da9fa7f5\transformed\emoji2-1.2.0\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\Hansani\.gradle\caches\transforms-3\ad451a7f81cb46276116abfb7e98c1af\transformed\drawerlayout-1.1.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\Hansani\.gradle\caches\transforms-3\7161043c634d45ec9674bc19fe9f5c3f\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\Hansani\.gradle\caches\transforms-3\539ae6981ce5c441c25d6ba5014c649a\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\Hansani\.gradle\caches\transforms-3\fa6b0778cace085f8a33d024745dec81\transformed\transition-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Hansani\.gradle\caches\transforms-3\858bfd5d988540ee41a39017694924de\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Hansani\.gradle\caches\transforms-3\a7307d22e997cab7f2a5f1cfeff6851a\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Hansani\.gradle\caches\transforms-3\caec77c6712438a39c691258d320f51e\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Hansani\.gradle\caches\transforms-3\512419445da05c1bd4101717e3c1c381\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\Hansani\.gradle\caches\transforms-3\3a14efd13676fb9d17db5d805fe26389\transformed\savedstate-1.2.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\Hansani\.gradle\caches\transforms-3\fc8d73e4cd7f070e778cf560fc319da5\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.1] C:\Users\Hansani\.gradle\caches\transforms-3\41edf4a8fe0695a32075d32ec46b7374\transformed\lifecycle-livedata-core-2.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.1] C:\Users\Hansani\.gradle\caches\transforms-3\3a9ce52fa4df6c3115b5afd4bcfee878\transformed\lifecycle-livedata-2.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.1] C:\Users\Hansani\.gradle\caches\transforms-3\76704647ac14fffb6ee8af211a866e01\transformed\lifecycle-viewmodel-2.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.1] C:\Users\Hansani\.gradle\caches\transforms-3\7f22d72290cb86928211dc46fc7e328f\transformed\lifecycle-runtime-2.6.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.1] C:\Users\Hansani\.gradle\caches\transforms-3\1ce6a862828b2cf588284dd847d8e559\transformed\lifecycle-viewmodel-savedstate-2.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core-ktx:1.9.0] C:\Users\Hansani\.gradle\caches\transforms-3\442fd843d75cea07169192a91949bba6\transformed\core-ktx-1.9.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Hansani\.gradle\caches\transforms-3\1cf05dcce0c4762aa4895f5faf1a8c75\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\Hansani\.gradle\caches\transforms-3\aa8f44eff13019000cec0eff24b4df18\transformed\recyclerview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\Hansani\.gradle\caches\transforms-3\f59f8524607312b58157fca725279713\transformed\customview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.9.0] C:\Users\Hansani\.gradle\caches\transforms-3\11b94905b76d54666e9ea7d1bf2b63fd\transformed\core-1.9.0\AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Hansani\.gradle\caches\transforms-3\c75f4e87a2514bdcaf8f299a7796a94c\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Hansani\.gradle\caches\transforms-3\6372455ab1359368453b093bbf9d02a1\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-components:17.1.0] C:\Users\Hansani\.gradle\caches\transforms-3\0c8a69b443c6a6d491b4be04ae11bb64\transformed\firebase-components-17.1.0\AndroidManifest.xml:15:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Hansani\.gradle\caches\transforms-3\27580d6618f8097c773b94352c35d98b\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Hansani\.gradle\caches\transforms-3\af539d90ce3b76d4b1325308606b0b97\transformed\profileinstaller-1.3.0\AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Hansani\.gradle\caches\transforms-3\88af56e8a1744be10eeb4a8abfea6c8e\transformed\startup-runtime-1.1.1\AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\Hansani\.gradle\caches\transforms-3\dad475e3a6246032615a1013a84ae6a0\transformed\tracing-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Hansani\.gradle\caches\transforms-3\a523f7307b421f0fc9bb08465b3b50a9\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\Hansani\.gradle\caches\transforms-3\6eb8455b2f6cdf07706ba1c4a00284ba\transformed\core-runtime-2.2.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Hansani\.gradle\caches\transforms-3\3a6dd4b95751398cb96259aec957204a\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Hansani\.gradle\caches\transforms-3\ffcbfe27f1e4026b18808580a50b0058\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\Hansani\.gradle\caches\transforms-3\0d8e1d5b6ac67ee35e7ed38c509f74bf\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\Hansani\.gradle\caches\transforms-3\b6db193d7eddfc7eed40a4beaa245f0a\transformed\annotation-experimental-1.3.0\AndroidManifest.xml:17:1-22:12
+	package
+		INJECTED from C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:5:5-81
+	android:name
+		ADDED from C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:5:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:6:5-80
+	android:name
+		ADDED from C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:6:22-77
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:7:5-67
+MERGED from [com.google.firebase:firebase-database:20.2.2] C:\Users\Hansani\.gradle\caches\transforms-3\8367178409329933e63c72811a7da648\transformed\firebase-database-20.2.2\AndroidManifest.xml:25:5-67
+MERGED from [com.google.firebase:firebase-database:20.2.2] C:\Users\Hansani\.gradle\caches\transforms-3\8367178409329933e63c72811a7da648\transformed\firebase-database-20.2.2\AndroidManifest.xml:25:5-67
+	android:name
+		ADDED from C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:7:22-64
+application
+ADDED from C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:9:5-167:19
+INJECTED from C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:9:5-167:19
+MERGED from [com.google.android.material:material:1.10.0] C:\Users\Hansani\.gradle\caches\transforms-3\063bffdb27578825f42f277879dd5c02\transformed\material-1.10.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.10.0] C:\Users\Hansani\.gradle\caches\transforms-3\063bffdb27578825f42f277879dd5c02\transformed\material-1.10.0\AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\Hansani\.gradle\caches\transforms-3\30fd80b0d98843f53cc80b5243059cfd\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\Hansani\.gradle\caches\transforms-3\30fd80b0d98843f53cc80b5243059cfd\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
+MERGED from [com.google.firebase:firebase-database:20.2.2] C:\Users\Hansani\.gradle\caches\transforms-3\8367178409329933e63c72811a7da648\transformed\firebase-database-20.2.2\AndroidManifest.xml:27:5-35:19
+MERGED from [com.google.firebase:firebase-database:20.2.2] C:\Users\Hansani\.gradle\caches\transforms-3\8367178409329933e63c72811a7da648\transformed\firebase-database-20.2.2\AndroidManifest.xml:27:5-35:19
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.0.1] C:\Users\Hansani\.gradle\caches\transforms-3\7709ce4c41573f98cc72032697f4d67c\transformed\firebase-appcheck-interop-17.0.1\AndroidManifest.xml:23:5-20
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.0.1] C:\Users\Hansani\.gradle\caches\transforms-3\7709ce4c41573f98cc72032697f4d67c\transformed\firebase-appcheck-interop-17.0.1\AndroidManifest.xml:23:5-20
+MERGED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\Hansani\.gradle\caches\transforms-3\3c19fc2bbd87dd62c81ba23c93205df3\transformed\play-services-base-18.1.0\AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\Hansani\.gradle\caches\transforms-3\3c19fc2bbd87dd62c81ba23c93205df3\transformed\play-services-base-18.1.0\AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\Hansani\.gradle\caches\transforms-3\e8003ea33a8876cfc4c5a4592a6e4b2e\transformed\firebase-auth-interop-20.0.0\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\Hansani\.gradle\caches\transforms-3\e8003ea33a8876cfc4c5a4592a6e4b2e\transformed\firebase-auth-interop-20.0.0\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-common:20.3.2] C:\Users\Hansani\.gradle\caches\transforms-3\9e41af7578926b50f461f879fd7112d4\transformed\firebase-common-20.3.2\AndroidManifest.xml:24:5-37:19
+MERGED from [com.google.firebase:firebase-common:20.3.2] C:\Users\Hansani\.gradle\caches\transforms-3\9e41af7578926b50f461f879fd7112d4\transformed\firebase-common-20.3.2\AndroidManifest.xml:24:5-37:19
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] C:\Users\Hansani\.gradle\caches\transforms-3\f2836b0059b35c0a410e95af32490cab\transformed\play-services-tasks-18.0.2\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] C:\Users\Hansani\.gradle\caches\transforms-3\f2836b0059b35c0a410e95af32490cab\transformed\play-services-tasks-18.0.2\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\Hansani\.gradle\caches\transforms-3\9230e3d0e2305662fe4ecfcd5d45f275\transformed\play-services-basement-18.1.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\Hansani\.gradle\caches\transforms-3\9230e3d0e2305662fe4ecfcd5d45f275\transformed\play-services-basement-18.1.0\AndroidManifest.xml:20:5-24:19
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Hansani\.gradle\caches\transforms-3\83e68f7926ebe85388f03774da9fa7f5\transformed\emoji2-1.2.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Hansani\.gradle\caches\transforms-3\83e68f7926ebe85388f03774da9fa7f5\transformed\emoji2-1.2.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\Hansani\.gradle\caches\transforms-3\fc8d73e4cd7f070e778cf560fc319da5\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\Hansani\.gradle\caches\transforms-3\fc8d73e4cd7f070e778cf560fc319da5\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.core:core:1.9.0] C:\Users\Hansani\.gradle\caches\transforms-3\11b94905b76d54666e9ea7d1bf2b63fd\transformed\core-1.9.0\AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.9.0] C:\Users\Hansani\.gradle\caches\transforms-3\11b94905b76d54666e9ea7d1bf2b63fd\transformed\core-1.9.0\AndroidManifest.xml:28:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Hansani\.gradle\caches\transforms-3\27580d6618f8097c773b94352c35d98b\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Hansani\.gradle\caches\transforms-3\27580d6618f8097c773b94352c35d98b\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Hansani\.gradle\caches\transforms-3\af539d90ce3b76d4b1325308606b0b97\transformed\profileinstaller-1.3.0\AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Hansani\.gradle\caches\transforms-3\af539d90ce3b76d4b1325308606b0b97\transformed\profileinstaller-1.3.0\AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Hansani\.gradle\caches\transforms-3\88af56e8a1744be10eeb4a8abfea6c8e\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Hansani\.gradle\caches\transforms-3\88af56e8a1744be10eeb4a8abfea6c8e\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+	android:extractNativeLibs
+		INJECTED from C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.9.0] C:\Users\Hansani\.gradle\caches\transforms-3\11b94905b76d54666e9ea7d1bf2b63fd\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+	android:supportsRtl
+		ADDED from C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:16:9-35
+	android:label
+		ADDED from C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:14:9-41
+	android:fullBackupContent
+		ADDED from C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:12:9-54
+	android:roundIcon
+		ADDED from C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:15:9-54
+	tools:targetApi
+		ADDED from C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:18:9-29
+	android:icon
+		ADDED from C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:13:9-43
+	android:allowBackup
+		ADDED from C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:10:9-35
+	android:theme
+		ADDED from C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:17:9-54
+	android:dataExtractionRules
+		ADDED from C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:11:9-65
+activity#com.example.solarapplication.Customer_Search_Articles_Activity
+ADDED from C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:19:9-21:40
+	android:exported
+		ADDED from C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:21:13-37
+	android:name
+		ADDED from C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:20:13-62
+activity#com.example.solarapplication.Online_Chat_Bot_Activity
+ADDED from C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:22:9-24:40
+	android:exported
+		ADDED from C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:24:13-37
+	android:name
+		ADDED from C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:23:13-53
+activity#com.example.solarapplication.Contact_Page_Activity2
+ADDED from C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:25:9-27:40
+	android:exported
+		ADDED from C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:26:13-51
+activity#com.example.solarapplication.Admin_View_Notification_Activity
+ADDED from C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:28:9-30:40
+	android:exported
+		ADDED from C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:29:13-61
+activity#com.example.solarapplication.Customer_View_Orders_Activity
+ADDED from C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:31:9-33:40
+	android:exported
+		ADDED from C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:33:13-37
+	android:name
+		ADDED from C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:32:13-58
+activity#com.example.solarapplication.Supplier_Order_Activity
+ADDED from C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:34:9-36:40
+	android:exported
+		ADDED from C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:36:13-37
+	android:name
+		ADDED from C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:35:13-52
+activity#com.example.solarapplication.ChatBot_Activity
+ADDED from C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:37:9-39:40
+	android:exported
+		ADDED from C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:39:13-37
+	android:name
+		ADDED from C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:38:13-45
+activity#com.example.solarapplication.Admin_search_Articles_Activity
+ADDED from C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:40:9-42:40
+	android:exported
+		ADDED from C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:42:13-37
+	android:name
+		ADDED from C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:41:13-59
+activity#com.example.solarapplication.Admin_Manage_News_Activity
+ADDED from C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:43:9-45:40
+	android:exported
+		ADDED from C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:45:13-37
+	android:name
+		ADDED from C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:44:13-55
+activity#com.example.solarapplication.Journalist_Signup_Activity
+ADDED from C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:46:9-48:40
+	android:exported
+		ADDED from C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:48:13-37
+	android:name
+		ADDED from C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:47:13-55
+activity#com.example.solarapplication.Journalist_Update_Articles_Activity
+ADDED from C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:49:9-51:40
+	android:exported
+		ADDED from C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:51:13-37
+	android:name
+		ADDED from C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:50:13-64
+activity#com.example.solarapplication.Journalist_Profile_Activity
+ADDED from C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:52:9-54:40
+	android:exported
+		ADDED from C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:54:13-37
+	android:name
+		ADDED from C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:53:13-56
+activity#com.example.solarapplication.Journalist_Manage_Articles_Activity
+ADDED from C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:55:9-57:40
+	android:exported
+		ADDED from C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:57:13-37
+	android:name
+		ADDED from C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:56:13-64
+activity#com.example.solarapplication.Add_Articles_Activity
+ADDED from C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:58:9-60:40
+	android:exported
+		ADDED from C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:60:13-37
+	android:name
+		ADDED from C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:59:13-50
+activity#com.example.solarapplication.Journalist_Home_Activity
+ADDED from C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:61:9-63:40
+	android:exported
+		ADDED from C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:63:13-37
+	android:name
+		ADDED from C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:62:13-53
+activity#com.example.solarapplication.Customer_View_Articles_Activity
+ADDED from C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:64:9-66:40
+	android:exported
+		ADDED from C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:66:13-37
+	android:name
+		ADDED from C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:65:13-60
+activity#com.example.solarapplication.Customer_Display_All_Feedback_Activity
+ADDED from C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:67:9-69:40
+	android:exported
+		ADDED from C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:69:13-37
+	android:name
+		ADDED from C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:68:13-67
+activity#com.example.solarapplication.Admin_search_Feedback_Activity
+ADDED from C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:70:9-72:40
+	android:exported
+		ADDED from C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:72:13-37
+	android:name
+		ADDED from C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:71:13-59
+activity#com.example.solarapplication.Admin_Feedback_Activity
+ADDED from C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:73:9-75:40
+	android:exported
+		ADDED from C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:75:13-37
+	android:name
+		ADDED from C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:74:13-52
+activity#com.example.solarapplication.Customer_Feedback_Activity
+ADDED from C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:76:9-79:58
+	android:windowSoftInputMode
+		ADDED from C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:79:13-55
+	android:exported
+		ADDED from C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:78:13-37
+	android:name
+		ADDED from C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:77:13-55
+activity#com.example.solarapplication.Solar_News_Activity
+ADDED from C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:80:9-82:40
+	android:exported
+		ADDED from C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:82:13-37
+	android:name
+		ADDED from C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:81:13-48
+activity#com.example.solarapplication.Customer_search_Products_Activity
+ADDED from C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:83:9-85:40
+	android:exported
+		ADDED from C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:85:13-37
+	android:name
+		ADDED from C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:84:13-62
+activity#com.example.solarapplication.Supplier_Search_Products_Activity
+ADDED from C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:86:9-88:40
+	android:exported
+		ADDED from C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:88:13-37
+	android:name
+		ADDED from C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:87:13-62
+activity#com.example.solarapplication.Update_Product_Activity
+ADDED from C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:89:9-91:40
+	android:exported
+		ADDED from C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:91:13-37
+	android:name
+		ADDED from C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:90:13-52
+activity#com.example.solarapplication.Admin_search_Supplier_Activity
+ADDED from C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:92:9-94:40
+	android:exported
+		ADDED from C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:94:13-37
+	android:name
+		ADDED from C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:93:13-59
+activity#com.example.solarapplication.Admin_View_Supplier_Activity
+ADDED from C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:95:9-97:40
+	android:exported
+		ADDED from C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:97:13-37
+	android:name
+		ADDED from C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:96:13-57
+activity#com.example.solarapplication.View_Post_Activity
+ADDED from C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:98:9-100:40
+	android:exported
+		ADDED from C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:100:13-37
+	android:name
+		ADDED from C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:99:13-47
+activity#com.example.solarapplication.Admin_search_Products_Activity
+ADDED from C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:101:9-103:40
+	android:exported
+		ADDED from C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:103:13-37
+	android:name
+		ADDED from C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:102:13-59
+activity#com.example.solarapplication.Admin_View_Products_Activity
+ADDED from C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:104:9-106:40
+	android:exported
+		ADDED from C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:106:13-37
+	android:name
+		ADDED from C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:105:13-57
+activity#com.example.solarapplication.Supplier_Profile_Activity
+ADDED from C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:107:9-109:40
+	android:exported
+		ADDED from C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:109:13-37
+	android:name
+		ADDED from C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:108:13-54
+activity#com.example.solarapplication.View_Supplier_Products_Activity
+ADDED from C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:110:9-112:40
+	android:exported
+		ADDED from C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:112:13-37
+	android:name
+		ADDED from C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:111:13-60
+activity#com.example.solarapplication.Supplier_Dashbord_Activity
+ADDED from C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:113:9-115:40
+	android:exported
+		ADDED from C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:115:13-37
+	android:name
+		ADDED from C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:114:13-55
+activity#com.example.solarapplication.Supplier_Signup_Activity
+ADDED from C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:116:9-118:40
+	android:exported
+		ADDED from C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:118:13-37
+	android:name
+		ADDED from C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:117:13-53
+activity#com.example.solarapplication.Suppliers_add_data_Activity
+ADDED from C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:119:9-121:40
+	android:exported
+		ADDED from C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:121:13-37
+	android:name
+		ADDED from C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:120:13-56
+activity#com.example.solarapplication.Calculator_Page_Activity
+ADDED from C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:122:9-124:40
+	android:exported
+		ADDED from C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:124:13-37
+	android:name
+		ADDED from C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:123:13-53
+activity#com.example.solarapplication.Admin_Home_Activity
+ADDED from C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:125:9-127:40
+	android:exported
+		ADDED from C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:127:13-37
+	android:name
+		ADDED from C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:126:13-48
+activity#com.example.solarapplication.Delivery_Service_Activity
+ADDED from C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:128:9-130:40
+	android:exported
+		ADDED from C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:130:13-37
+	android:name
+		ADDED from C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:129:13-54
+activity#com.example.solarapplication.Contact_Page_Activity
+ADDED from C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:131:9-133:40
+	android:exported
+		ADDED from C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:133:13-37
+	android:name
+		ADDED from C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:132:13-50
+activity#com.example.solarapplication.Our_warranty_Activity
+ADDED from C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:134:9-136:40
+	android:exported
+		ADDED from C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:136:13-37
+	android:name
+		ADDED from C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:135:13-50
+activity#com.example.solarapplication.After_Services_Activity
+ADDED from C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:137:9-139:40
+	android:exported
+		ADDED from C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:139:13-37
+	android:name
+		ADDED from C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:138:13-52
+activity#com.example.solarapplication.Service_page_Activity
+ADDED from C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:140:9-142:40
+	android:exported
+		ADDED from C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:142:13-37
+	android:name
+		ADDED from C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:141:13-50
+activity#com.example.solarapplication.Article_Activity
+ADDED from C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:143:9-145:40
+	android:exported
+		ADDED from C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:145:13-37
+	android:name
+		ADDED from C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:144:13-45
+activity#com.example.solarapplication.Customer_Profile_Activity
+ADDED from C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:146:9-148:40
+	android:exported
+		ADDED from C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:148:13-37
+	android:name
+		ADDED from C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:147:13-54
+activity#com.example.solarapplication.View_Products_Activity
+ADDED from C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:149:9-151:40
+	android:exported
+		ADDED from C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:151:13-37
+	android:name
+		ADDED from C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:150:13-51
+activity#com.example.solarapplication.Signup_Activity
+ADDED from C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:152:9-154:40
+	android:exported
+		ADDED from C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:154:13-37
+	android:name
+		ADDED from C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:153:13-44
+activity#com.example.solarapplication.Customer_Home_Activity
+ADDED from C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:155:9-157:40
+	android:exported
+		ADDED from C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:157:13-37
+	android:name
+		ADDED from C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:156:13-51
+activity#com.example.solarapplication.Login_Activity
+ADDED from C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:158:9-166:20
+	android:exported
+		ADDED from C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:160:13-36
+	android:name
+		ADDED from C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:159:13-43
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:161:13-165:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:162:17-69
+	android:name
+		ADDED from C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:162:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:164:17-77
+	android:name
+		ADDED from C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml:164:27-74
+uses-sdk
+INJECTED from C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml
+MERGED from [com.google.android.material:material:1.10.0] C:\Users\Hansani\.gradle\caches\transforms-3\063bffdb27578825f42f277879dd5c02\transformed\material-1.10.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.10.0] C:\Users\Hansani\.gradle\caches\transforms-3\063bffdb27578825f42f277879dd5c02\transformed\material-1.10.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\Hansani\.gradle\caches\transforms-3\30fd80b0d98843f53cc80b5243059cfd\transformed\constraintlayout-2.1.4\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\Hansani\.gradle\caches\transforms-3\30fd80b0d98843f53cc80b5243059cfd\transformed\constraintlayout-2.1.4\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\Hansani\.gradle\caches\transforms-3\a7be56e87c57d9171d0d8aa28658cb3a\transformed\appcompat-resources-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\Hansani\.gradle\caches\transforms-3\a7be56e87c57d9171d0d8aa28658cb3a\transformed\appcompat-resources-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\Hansani\.gradle\caches\transforms-3\2a5e2e3cbde528048f3642fabc40d120\transformed\appcompat-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\Hansani\.gradle\caches\transforms-3\2a5e2e3cbde528048f3642fabc40d120\transformed\appcompat-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-database:20.2.2] C:\Users\Hansani\.gradle\caches\transforms-3\8367178409329933e63c72811a7da648\transformed\firebase-database-20.2.2\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-database:20.2.2] C:\Users\Hansani\.gradle\caches\transforms-3\8367178409329933e63c72811a7da648\transformed\firebase-database-20.2.2\AndroidManifest.xml:18:5-20:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Hansani\.gradle\caches\transforms-3\aebd65e26e08bf5816cd77a48fb49a61\transformed\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Hansani\.gradle\caches\transforms-3\aebd65e26e08bf5816cd77a48fb49a61\transformed\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.0.1] C:\Users\Hansani\.gradle\caches\transforms-3\7709ce4c41573f98cc72032697f4d67c\transformed\firebase-appcheck-interop-17.0.1\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.0.1] C:\Users\Hansani\.gradle\caches\transforms-3\7709ce4c41573f98cc72032697f4d67c\transformed\firebase-appcheck-interop-17.0.1\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] C:\Users\Hansani\.gradle\caches\transforms-3\df47f7de2eea7133db4e794cc93fc21c\transformed\firebase-database-collection-18.0.1\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] C:\Users\Hansani\.gradle\caches\transforms-3\df47f7de2eea7133db4e794cc93fc21c\transformed\firebase-database-collection-18.0.1\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\Hansani\.gradle\caches\transforms-3\3c19fc2bbd87dd62c81ba23c93205df3\transformed\play-services-base-18.1.0\AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\Hansani\.gradle\caches\transforms-3\3c19fc2bbd87dd62c81ba23c93205df3\transformed\play-services-base-18.1.0\AndroidManifest.xml:18:5-43
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\Hansani\.gradle\caches\transforms-3\e8003ea33a8876cfc4c5a4592a6e4b2e\transformed\firebase-auth-interop-20.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\Hansani\.gradle\caches\transforms-3\e8003ea33a8876cfc4c5a4592a6e4b2e\transformed\firebase-auth-interop-20.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common:20.3.2] C:\Users\Hansani\.gradle\caches\transforms-3\9e41af7578926b50f461f879fd7112d4\transformed\firebase-common-20.3.2\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-common:20.3.2] C:\Users\Hansani\.gradle\caches\transforms-3\9e41af7578926b50f461f879fd7112d4\transformed\firebase-common-20.3.2\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] C:\Users\Hansani\.gradle\caches\transforms-3\f2836b0059b35c0a410e95af32490cab\transformed\play-services-tasks-18.0.2\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] C:\Users\Hansani\.gradle\caches\transforms-3\f2836b0059b35c0a410e95af32490cab\transformed\play-services-tasks-18.0.2\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\Hansani\.gradle\caches\transforms-3\9230e3d0e2305662fe4ecfcd5d45f275\transformed\play-services-basement-18.1.0\AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\Hansani\.gradle\caches\transforms-3\9230e3d0e2305662fe4ecfcd5d45f275\transformed\play-services-basement-18.1.0\AndroidManifest.xml:18:5-43
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\Hansani\.gradle\caches\transforms-3\c98bf5e6cee4ee67bb7a2824c67668da\transformed\fragment-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\Hansani\.gradle\caches\transforms-3\c98bf5e6cee4ee67bb7a2824c67668da\transformed\fragment-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.8.0] C:\Users\Hansani\.gradle\caches\transforms-3\fb264ad5e56de08249eae37b4af7da45\transformed\activity-1.8.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.8.0] C:\Users\Hansani\.gradle\caches\transforms-3\fb264ad5e56de08249eae37b4af7da45\transformed\activity-1.8.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\Hansani\.gradle\caches\transforms-3\1fb3b5cb980c6e4ba2da6b82e5e71fb6\transformed\emoji2-views-helper-1.2.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\Hansani\.gradle\caches\transforms-3\1fb3b5cb980c6e4ba2da6b82e5e71fb6\transformed\emoji2-views-helper-1.2.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Hansani\.gradle\caches\transforms-3\83e68f7926ebe85388f03774da9fa7f5\transformed\emoji2-1.2.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Hansani\.gradle\caches\transforms-3\83e68f7926ebe85388f03774da9fa7f5\transformed\emoji2-1.2.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\Hansani\.gradle\caches\transforms-3\ad451a7f81cb46276116abfb7e98c1af\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\Hansani\.gradle\caches\transforms-3\ad451a7f81cb46276116abfb7e98c1af\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\Hansani\.gradle\caches\transforms-3\7161043c634d45ec9674bc19fe9f5c3f\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\Hansani\.gradle\caches\transforms-3\7161043c634d45ec9674bc19fe9f5c3f\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\Hansani\.gradle\caches\transforms-3\539ae6981ce5c441c25d6ba5014c649a\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\Hansani\.gradle\caches\transforms-3\539ae6981ce5c441c25d6ba5014c649a\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\Hansani\.gradle\caches\transforms-3\fa6b0778cace085f8a33d024745dec81\transformed\transition-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\Hansani\.gradle\caches\transforms-3\fa6b0778cace085f8a33d024745dec81\transformed\transition-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Hansani\.gradle\caches\transforms-3\858bfd5d988540ee41a39017694924de\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Hansani\.gradle\caches\transforms-3\858bfd5d988540ee41a39017694924de\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Hansani\.gradle\caches\transforms-3\a7307d22e997cab7f2a5f1cfeff6851a\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Hansani\.gradle\caches\transforms-3\a7307d22e997cab7f2a5f1cfeff6851a\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Hansani\.gradle\caches\transforms-3\caec77c6712438a39c691258d320f51e\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Hansani\.gradle\caches\transforms-3\caec77c6712438a39c691258d320f51e\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Hansani\.gradle\caches\transforms-3\512419445da05c1bd4101717e3c1c381\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Hansani\.gradle\caches\transforms-3\512419445da05c1bd4101717e3c1c381\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\Hansani\.gradle\caches\transforms-3\3a14efd13676fb9d17db5d805fe26389\transformed\savedstate-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\Hansani\.gradle\caches\transforms-3\3a14efd13676fb9d17db5d805fe26389\transformed\savedstate-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\Hansani\.gradle\caches\transforms-3\fc8d73e4cd7f070e778cf560fc319da5\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\Hansani\.gradle\caches\transforms-3\fc8d73e4cd7f070e778cf560fc319da5\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.1] C:\Users\Hansani\.gradle\caches\transforms-3\41edf4a8fe0695a32075d32ec46b7374\transformed\lifecycle-livedata-core-2.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.1] C:\Users\Hansani\.gradle\caches\transforms-3\41edf4a8fe0695a32075d32ec46b7374\transformed\lifecycle-livedata-core-2.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.1] C:\Users\Hansani\.gradle\caches\transforms-3\3a9ce52fa4df6c3115b5afd4bcfee878\transformed\lifecycle-livedata-2.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.1] C:\Users\Hansani\.gradle\caches\transforms-3\3a9ce52fa4df6c3115b5afd4bcfee878\transformed\lifecycle-livedata-2.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.1] C:\Users\Hansani\.gradle\caches\transforms-3\76704647ac14fffb6ee8af211a866e01\transformed\lifecycle-viewmodel-2.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.1] C:\Users\Hansani\.gradle\caches\transforms-3\76704647ac14fffb6ee8af211a866e01\transformed\lifecycle-viewmodel-2.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.1] C:\Users\Hansani\.gradle\caches\transforms-3\7f22d72290cb86928211dc46fc7e328f\transformed\lifecycle-runtime-2.6.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.1] C:\Users\Hansani\.gradle\caches\transforms-3\7f22d72290cb86928211dc46fc7e328f\transformed\lifecycle-runtime-2.6.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.1] C:\Users\Hansani\.gradle\caches\transforms-3\1ce6a862828b2cf588284dd847d8e559\transformed\lifecycle-viewmodel-savedstate-2.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.1] C:\Users\Hansani\.gradle\caches\transforms-3\1ce6a862828b2cf588284dd847d8e559\transformed\lifecycle-viewmodel-savedstate-2.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core-ktx:1.9.0] C:\Users\Hansani\.gradle\caches\transforms-3\442fd843d75cea07169192a91949bba6\transformed\core-ktx-1.9.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.9.0] C:\Users\Hansani\.gradle\caches\transforms-3\442fd843d75cea07169192a91949bba6\transformed\core-ktx-1.9.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Hansani\.gradle\caches\transforms-3\1cf05dcce0c4762aa4895f5faf1a8c75\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Hansani\.gradle\caches\transforms-3\1cf05dcce0c4762aa4895f5faf1a8c75\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\Hansani\.gradle\caches\transforms-3\aa8f44eff13019000cec0eff24b4df18\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\Hansani\.gradle\caches\transforms-3\aa8f44eff13019000cec0eff24b4df18\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\Hansani\.gradle\caches\transforms-3\f59f8524607312b58157fca725279713\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\Hansani\.gradle\caches\transforms-3\f59f8524607312b58157fca725279713\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.9.0] C:\Users\Hansani\.gradle\caches\transforms-3\11b94905b76d54666e9ea7d1bf2b63fd\transformed\core-1.9.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.9.0] C:\Users\Hansani\.gradle\caches\transforms-3\11b94905b76d54666e9ea7d1bf2b63fd\transformed\core-1.9.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Hansani\.gradle\caches\transforms-3\c75f4e87a2514bdcaf8f299a7796a94c\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Hansani\.gradle\caches\transforms-3\c75f4e87a2514bdcaf8f299a7796a94c\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Hansani\.gradle\caches\transforms-3\6372455ab1359368453b093bbf9d02a1\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Hansani\.gradle\caches\transforms-3\6372455ab1359368453b093bbf9d02a1\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-components:17.1.0] C:\Users\Hansani\.gradle\caches\transforms-3\0c8a69b443c6a6d491b4be04ae11bb64\transformed\firebase-components-17.1.0\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-components:17.1.0] C:\Users\Hansani\.gradle\caches\transforms-3\0c8a69b443c6a6d491b4be04ae11bb64\transformed\firebase-components-17.1.0\AndroidManifest.xml:18:5-20:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Hansani\.gradle\caches\transforms-3\27580d6618f8097c773b94352c35d98b\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Hansani\.gradle\caches\transforms-3\27580d6618f8097c773b94352c35d98b\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Hansani\.gradle\caches\transforms-3\af539d90ce3b76d4b1325308606b0b97\transformed\profileinstaller-1.3.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Hansani\.gradle\caches\transforms-3\af539d90ce3b76d4b1325308606b0b97\transformed\profileinstaller-1.3.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Hansani\.gradle\caches\transforms-3\88af56e8a1744be10eeb4a8abfea6c8e\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Hansani\.gradle\caches\transforms-3\88af56e8a1744be10eeb4a8abfea6c8e\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\Hansani\.gradle\caches\transforms-3\dad475e3a6246032615a1013a84ae6a0\transformed\tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\Hansani\.gradle\caches\transforms-3\dad475e3a6246032615a1013a84ae6a0\transformed\tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Hansani\.gradle\caches\transforms-3\a523f7307b421f0fc9bb08465b3b50a9\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Hansani\.gradle\caches\transforms-3\a523f7307b421f0fc9bb08465b3b50a9\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\Hansani\.gradle\caches\transforms-3\6eb8455b2f6cdf07706ba1c4a00284ba\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\Hansani\.gradle\caches\transforms-3\6eb8455b2f6cdf07706ba1c4a00284ba\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Hansani\.gradle\caches\transforms-3\3a6dd4b95751398cb96259aec957204a\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Hansani\.gradle\caches\transforms-3\3a6dd4b95751398cb96259aec957204a\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Hansani\.gradle\caches\transforms-3\ffcbfe27f1e4026b18808580a50b0058\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Hansani\.gradle\caches\transforms-3\ffcbfe27f1e4026b18808580a50b0058\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\Hansani\.gradle\caches\transforms-3\0d8e1d5b6ac67ee35e7ed38c509f74bf\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\Hansani\.gradle\caches\transforms-3\0d8e1d5b6ac67ee35e7ed38c509f74bf\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\Hansani\.gradle\caches\transforms-3\b6db193d7eddfc7eed40a4beaa245f0a\transformed\annotation-experimental-1.3.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\Hansani\.gradle\caches\transforms-3\b6db193d7eddfc7eed40a4beaa245f0a\transformed\annotation-experimental-1.3.0\AndroidManifest.xml:20:5-44
+	android:targetSdkVersion
+		INJECTED from C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\Hansani\Desktop\SolarApplicationaa\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.firebase:firebase-database:20.2.2] C:\Users\Hansani\.gradle\caches\transforms-3\8367178409329933e63c72811a7da648\transformed\firebase-database-20.2.2\AndroidManifest.xml:24:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-database:20.2.2] C:\Users\Hansani\.gradle\caches\transforms-3\8367178409329933e63c72811a7da648\transformed\firebase-database-20.2.2\AndroidManifest.xml:24:22-76
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-database:20.2.2] C:\Users\Hansani\.gradle\caches\transforms-3\8367178409329933e63c72811a7da648\transformed\firebase-database-20.2.2\AndroidManifest.xml:28:9-34:19
+MERGED from [com.google.firebase:firebase-common:20.3.2] C:\Users\Hansani\.gradle\caches\transforms-3\9e41af7578926b50f461f879fd7112d4\transformed\firebase-common-20.3.2\AndroidManifest.xml:32:9-36:35
+MERGED from [com.google.firebase:firebase-common:20.3.2] C:\Users\Hansani\.gradle\caches\transforms-3\9e41af7578926b50f461f879fd7112d4\transformed\firebase-common-20.3.2\AndroidManifest.xml:32:9-36:35
+	android:exported
+		ADDED from [com.google.firebase:firebase-database:20.2.2] C:\Users\Hansani\.gradle\caches\transforms-3\8367178409329933e63c72811a7da648\transformed\firebase-database-20.2.2\AndroidManifest.xml:30:13-37
+	tools:targetApi
+		ADDED from [com.google.firebase:firebase-common:20.3.2] C:\Users\Hansani\.gradle\caches\transforms-3\9e41af7578926b50f461f879fd7112d4\transformed\firebase-common-20.3.2\AndroidManifest.xml:36:13-32
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:20.3.2] C:\Users\Hansani\.gradle\caches\transforms-3\9e41af7578926b50f461f879fd7112d4\transformed\firebase-common-20.3.2\AndroidManifest.xml:34:13-43
+	android:name
+		ADDED from [com.google.firebase:firebase-database:20.2.2] C:\Users\Hansani\.gradle\caches\transforms-3\8367178409329933e63c72811a7da648\transformed\firebase-database-20.2.2\AndroidManifest.xml:29:13-84
+meta-data#com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar
+ADDED from [com.google.firebase:firebase-database:20.2.2] C:\Users\Hansani\.gradle\caches\transforms-3\8367178409329933e63c72811a7da648\transformed\firebase-database-20.2.2\AndroidManifest.xml:31:13-33:85
+	android:value
+		ADDED from [com.google.firebase:firebase-database:20.2.2] C:\Users\Hansani\.gradle\caches\transforms-3\8367178409329933e63c72811a7da648\transformed\firebase-database-20.2.2\AndroidManifest.xml:33:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-database:20.2.2] C:\Users\Hansani\.gradle\caches\transforms-3\8367178409329933e63c72811a7da648\transformed\firebase-database-20.2.2\AndroidManifest.xml:32:17-109
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\Hansani\.gradle\caches\transforms-3\3c19fc2bbd87dd62c81ba23c93205df3\transformed\play-services-base-18.1.0\AndroidManifest.xml:20:9-22:45
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\Hansani\.gradle\caches\transforms-3\3c19fc2bbd87dd62c81ba23c93205df3\transformed\play-services-base-18.1.0\AndroidManifest.xml:22:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\Hansani\.gradle\caches\transforms-3\3c19fc2bbd87dd62c81ba23c93205df3\transformed\play-services-base-18.1.0\AndroidManifest.xml:21:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\Hansani\.gradle\caches\transforms-3\3c19fc2bbd87dd62c81ba23c93205df3\transformed\play-services-base-18.1.0\AndroidManifest.xml:20:19-85
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:20.3.2] C:\Users\Hansani\.gradle\caches\transforms-3\9e41af7578926b50f461f879fd7112d4\transformed\firebase-common-20.3.2\AndroidManifest.xml:25:9-30:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:20.3.2] C:\Users\Hansani\.gradle\caches\transforms-3\9e41af7578926b50f461f879fd7112d4\transformed\firebase-common-20.3.2\AndroidManifest.xml:27:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:20.3.2] C:\Users\Hansani\.gradle\caches\transforms-3\9e41af7578926b50f461f879fd7112d4\transformed\firebase-common-20.3.2\AndroidManifest.xml:29:13-37
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:20.3.2] C:\Users\Hansani\.gradle\caches\transforms-3\9e41af7578926b50f461f879fd7112d4\transformed\firebase-common-20.3.2\AndroidManifest.xml:28:13-43
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:20.3.2] C:\Users\Hansani\.gradle\caches\transforms-3\9e41af7578926b50f461f879fd7112d4\transformed\firebase-common-20.3.2\AndroidManifest.xml:30:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:20.3.2] C:\Users\Hansani\.gradle\caches\transforms-3\9e41af7578926b50f461f879fd7112d4\transformed\firebase-common-20.3.2\AndroidManifest.xml:26:13-77
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\Hansani\.gradle\caches\transforms-3\9230e3d0e2305662fe4ecfcd5d45f275\transformed\play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\Hansani\.gradle\caches\transforms-3\9230e3d0e2305662fe4ecfcd5d45f275\transformed\play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\Hansani\.gradle\caches\transforms-3\9230e3d0e2305662fe4ecfcd5d45f275\transformed\play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Hansani\.gradle\caches\transforms-3\83e68f7926ebe85388f03774da9fa7f5\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\Hansani\.gradle\caches\transforms-3\fc8d73e4cd7f070e778cf560fc319da5\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\Hansani\.gradle\caches\transforms-3\fc8d73e4cd7f070e778cf560fc319da5\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Hansani\.gradle\caches\transforms-3\af539d90ce3b76d4b1325308606b0b97\transformed\profileinstaller-1.3.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Hansani\.gradle\caches\transforms-3\af539d90ce3b76d4b1325308606b0b97\transformed\profileinstaller-1.3.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Hansani\.gradle\caches\transforms-3\88af56e8a1744be10eeb4a8abfea6c8e\transformed\startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Hansani\.gradle\caches\transforms-3\88af56e8a1744be10eeb4a8abfea6c8e\transformed\startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Hansani\.gradle\caches\transforms-3\83e68f7926ebe85388f03774da9fa7f5\transformed\emoji2-1.2.0\AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Hansani\.gradle\caches\transforms-3\83e68f7926ebe85388f03774da9fa7f5\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Hansani\.gradle\caches\transforms-3\83e68f7926ebe85388f03774da9fa7f5\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Hansani\.gradle\caches\transforms-3\83e68f7926ebe85388f03774da9fa7f5\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Hansani\.gradle\caches\transforms-3\83e68f7926ebe85388f03774da9fa7f5\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Hansani\.gradle\caches\transforms-3\83e68f7926ebe85388f03774da9fa7f5\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Hansani\.gradle\caches\transforms-3\83e68f7926ebe85388f03774da9fa7f5\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\Hansani\.gradle\caches\transforms-3\fc8d73e4cd7f070e778cf560fc319da5\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\Hansani\.gradle\caches\transforms-3\fc8d73e4cd7f070e778cf560fc319da5\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\Hansani\.gradle\caches\transforms-3\fc8d73e4cd7f070e778cf560fc319da5\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:30:17-78
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] C:\Users\Hansani\.gradle\caches\transforms-3\11b94905b76d54666e9ea7d1bf2b63fd\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.9.0] C:\Users\Hansani\.gradle\caches\transforms-3\11b94905b76d54666e9ea7d1bf2b63fd\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.9.0] C:\Users\Hansani\.gradle\caches\transforms-3\11b94905b76d54666e9ea7d1bf2b63fd\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+permission#com.example.solarapplication.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] C:\Users\Hansani\.gradle\caches\transforms-3\11b94905b76d54666e9ea7d1bf2b63fd\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.9.0] C:\Users\Hansani\.gradle\caches\transforms-3\11b94905b76d54666e9ea7d1bf2b63fd\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.9.0] C:\Users\Hansani\.gradle\caches\transforms-3\11b94905b76d54666e9ea7d1bf2b63fd\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] C:\Users\Hansani\.gradle\caches\transforms-3\11b94905b76d54666e9ea7d1bf2b63fd\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.9.0] C:\Users\Hansani\.gradle\caches\transforms-3\11b94905b76d54666e9ea7d1bf2b63fd\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+uses-permission#com.example.solarapplication.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] C:\Users\Hansani\.gradle\caches\transforms-3\11b94905b76d54666e9ea7d1bf2b63fd\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.9.0] C:\Users\Hansani\.gradle\caches\transforms-3\11b94905b76d54666e9ea7d1bf2b63fd\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Hansani\.gradle\caches\transforms-3\af539d90ce3b76d4b1325308606b0b97\transformed\profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Hansani\.gradle\caches\transforms-3\af539d90ce3b76d4b1325308606b0b97\transformed\profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Hansani\.gradle\caches\transforms-3\af539d90ce3b76d4b1325308606b0b97\transformed\profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Hansani\.gradle\caches\transforms-3\af539d90ce3b76d4b1325308606b0b97\transformed\profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Hansani\.gradle\caches\transforms-3\af539d90ce3b76d4b1325308606b0b97\transformed\profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Hansani\.gradle\caches\transforms-3\af539d90ce3b76d4b1325308606b0b97\transformed\profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Hansani\.gradle\caches\transforms-3\af539d90ce3b76d4b1325308606b0b97\transformed\profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Hansani\.gradle\caches\transforms-3\af539d90ce3b76d4b1325308606b0b97\transformed\profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Hansani\.gradle\caches\transforms-3\af539d90ce3b76d4b1325308606b0b97\transformed\profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Hansani\.gradle\caches\transforms-3\af539d90ce3b76d4b1325308606b0b97\transformed\profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Hansani\.gradle\caches\transforms-3\af539d90ce3b76d4b1325308606b0b97\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Hansani\.gradle\caches\transforms-3\af539d90ce3b76d4b1325308606b0b97\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Hansani\.gradle\caches\transforms-3\af539d90ce3b76d4b1325308606b0b97\transformed\profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Hansani\.gradle\caches\transforms-3\af539d90ce3b76d4b1325308606b0b97\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Hansani\.gradle\caches\transforms-3\af539d90ce3b76d4b1325308606b0b97\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Hansani\.gradle\caches\transforms-3\af539d90ce3b76d4b1325308606b0b97\transformed\profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Hansani\.gradle\caches\transforms-3\af539d90ce3b76d4b1325308606b0b97\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Hansani\.gradle\caches\transforms-3\af539d90ce3b76d4b1325308606b0b97\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Hansani\.gradle\caches\transforms-3\af539d90ce3b76d4b1325308606b0b97\transformed\profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Hansani\.gradle\caches\transforms-3\af539d90ce3b76d4b1325308606b0b97\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Hansani\.gradle\caches\transforms-3\af539d90ce3b76d4b1325308606b0b97\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:25-92

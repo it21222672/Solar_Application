@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@android:id/background">
+        <bitmap
+            android:src="@drawable/ic_star_empt"
+            android:tint="#CCCCCC"
+            android:gravity="center" />
+    </item>
+    <item android:id="@android:id/secondaryProgress">
+        <bitmap
+            android:src="@drawable/ic_star_half"
+            android:tint="#FFD700"
+            android:gravity="center" />
+    </item>
+    <item android:id="@android:id/progress">
+        <bitmap
+            android:src="@drawable/ic_star_full"
+            android:tint="#FFD700"
+            android:gravity="center" />
+    </item>
+</layer-list>
